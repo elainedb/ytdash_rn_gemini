@@ -5,12 +5,9 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "ytdashrngemini",
+    "scheme": "rngemini",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "package": "dev.elainedb.rn_gemini",
       "googleServicesFile": "./google-services.json",
