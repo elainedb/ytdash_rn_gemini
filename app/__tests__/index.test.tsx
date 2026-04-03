@@ -1,5 +1,3 @@
-import React from 'react';
-
 describe('App', () => {
   it('should pass a basic sanity check', () => {
     expect(true).toBe(true);
