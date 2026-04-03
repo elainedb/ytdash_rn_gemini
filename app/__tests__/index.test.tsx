@@ -1,4 +1,4 @@
-import React from 'react';
+import { describe, it, expect } from '@jest/globals';
 
 describe('App', () => {
   it('should pass a basic sanity check', () => {
