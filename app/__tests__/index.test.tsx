@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 
 describe('App', () => {
   it('should pass a basic sanity check', () => {
