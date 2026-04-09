@@ -154,9 +154,9 @@ Sensitive configuration files must be **gitignored** and must be created from te
 A script `scripts/ensure-config.ts` generates safe placeholder config files (empty email list, placeholder API key) when the real files are missing, allowing analysis and tests to pass in CI.
 
 ### `app.json`
-- Package identifiers: `dev.elainedb.rn-claude` (iOS), `dev.elainedb.rn_claude` (Android)
+- Package identifiers: `dev.elainedb.rn-gemini` (iOS), `dev.elainedb.rn_gemini` (Android)
 - Orientation: portrait
-- URL scheme: `rnclaude`
+- URL scheme: `rngemini`
 
 ---
 
@@ -304,7 +304,7 @@ Zod schema `videoModelSchema` validates API responses at runtime. Fields mirror 
 
 **Reverse Geocoding (`GeocodingService` in `src/features/videos/data/services/geocoding-service.ts`):**
 - Converts GPS coordinates to city/country names using the OpenStreetMap Nominatim API (`nominatim.openstreetmap.org/reverse`).
-- **User-Agent identification:** All Nominatim requests include a unique `User-Agent` header (`dev.elainedb.rn_claude/1.0`). This is mandatory per Nominatim usage policy — requests without proper identification are rejected.
+- **User-Agent identification:** All Nominatim requests include a unique `User-Agent` header (`dev.elainedb.rn_gemini/1.0`). This is mandatory per Nominatim usage policy — requests without proper identification are rejected.
 - **In-memory cache:** A `Map<string, { city: string | null; country: string | null }>` caches resolved coordinates. Cache keys are coordinates rounded to 3 decimal places (~111m precision) to group nearby points and avoid redundant lookups.
 - **Rate limiting:** Nominatim requires a maximum of 1 request per second. Requests are serialized through an async queue that enforces a minimum 1-second delay between consecutive API calls. Requests are never made in parallel.
 - **Retry with backoff:** Failed lookups (network errors, 5xx responses) retry up to 3 times with exponential backoff (1s, 2s, 4s — respecting the 1-second minimum) before falling back.
@@ -316,6 +316,11 @@ Zod schema `videoModelSchema` validates API responses at runtime. Fields mirror 
 - Database: `videos.db` with a single `videos` table.
 - Schema columns: `id` (TEXT PK), `title`, `channel_name`, `thumbnail_url`, `published_at`, `tags` (JSON-encoded string), `city`, `country`, `latitude` (REAL), `longitude` (REAL), `recording_date`, `cached_at`.
 - Indexes on: `channel_name`, `country`, `published_at`, `cached_at`.
+- **Android implementation detail:** For bulk inserts on Expo SDK 54 + `expo-sqlite` v14, avoid passing a JavaScript object as the bind container to `runAsync` on Android. In this project, both named-parameter objects and some other bridged bind shapes produced the runtime error `Cannot convert '[object Object]' to a Kotlin type.` The reliable implementation is:
+  - Convert all persisted values to SQLite-safe primitives first: `string | number | null`
+  - For insert-heavy cache writes, build a fully escaped SQL `INSERT` string and execute it with `db.execAsync(...)`, so the Android bridge only receives a SQL string and not a JS bind object
+  - Keep `getAllAsync` / `getFirstAsync` query parameters primitive as well
+- **Date handling:** Persist `published_at` and `recording_date` as ISO 8601 strings, not `Date` objects, before sending values to SQLite.
 - Methods:
   - `getCachedVideos()` — returns all videos ordered by `published_at DESC`
   - `cacheVideos(videos: VideoModel[])` — clears table, inserts all videos with current timestamp as `cached_at` (batch transaction)
@@ -445,7 +450,7 @@ interface VideosState {
 
 ##### OpenStreetMap Tile Usage Policy Compliance
 The app must comply with the [OSM Tile Usage Policy](https://operations.osmfoundation.org/policies/tiles/) to avoid request rejection or blocking:
-- **User-Agent identification:** Set a unique, identifiable `User-Agent` header (e.g., `dev.elainedb.rn_claude/1.0`) on all tile requests. This is **mandatory** — requests without a proper User-Agent are rejected. In the Leaflet.js WebView, configure this via the `WebView`'s `applicationNameForUserAgent` prop or by setting request headers in the HTML page.
+- **User-Agent identification:** Set a unique, identifiable `User-Agent` header (e.g., `dev.elainedb.rn_gemini/1.0`) on all tile requests. This is **mandatory** — requests without a proper User-Agent are rejected. In the Leaflet.js WebView, configure this via the `WebView`'s `applicationNameForUserAgent` prop or by setting request headers in the HTML page.
 - **Tile caching:** Leaflet and the WebView's built-in HTTP cache handle tile caching automatically. Do not send `Cache-Control: no-cache` or `Pragma: no-cache` headers.
 - **Rate limiting:** Do not aggressively prefetch tiles. Rely on Leaflet's default on-demand tile loading as the user pans/zooms. Avoid programmatic tile prefetch loops.
 - **No bulk downloading:** Only request tiles visible in the current viewport. Do not preload large tile regions.
@@ -664,21 +669,50 @@ npm install expo-sqlite@14
 
 Do not install `expo-sqlite@latest` or `expo-sqlite@55` — these require Expo SDK 55+.
 
-### 13.5 expo-sqlite v14 Crashes on Null Parameters with Variadic Arguments
+### 13.5 expo-sqlite v14 Android Bridge Error with Bound Insert Parameters
 
-**Problem:** When using `expo-sqlite` v14, passing parameters as variadic arguments to `runAsync` (e.g., `db.runAsync('INSERT ...', val1, val2, null, ...)`) causes a crash. The v14 Kotlin bridge cannot convert JavaScript `null` values when they are passed in variadic form, resulting in a runtime exception.
+**Problem:** On Android with Expo SDK 54 and `expo-sqlite` v14, cache inserts can fail with:
 
-**Fix:** Always pass parameters as an array instead of variadic arguments. This uses the `SQLiteBindParams` overload which handles `null` values correctly:
-
-```typescript
-// ❌ Wrong — variadic form crashes on null values
-await db.runAsync('INSERT INTO videos VALUES (?, ?, ?)', id, title, null);
-
-// ✅ Correct — array form handles nulls
-await db.runAsync('INSERT INTO videos VALUES (?, ?, ?)', [id, title, null]);
+```text
+[runAsync] Cannot convert '[object Object]' to a Kotlin type.
 ```
 
-This applies to all `runAsync`, `getFirstAsync`, and `getAllAsync` calls throughout the local data source.
+This was reproduced even after normalizing each individual value to plain `string`, `number`, or `null`. The failure came from the JS-to-Kotlin bridge handling of the **bind container itself** for `runAsync(...)`, not from the logical video payload. In practice:
+
+- Passing named bind objects to `runAsync` is unsafe on Android for this setup
+- Some positional/bound insert variants are also unreliable
+- The error is especially confusing because logs may show all field values are already primitive
+
+**Fix:** For insert-heavy write paths such as `cacheVideos(...)`, do not rely on parameter binding on Android. Instead:
+
+1. Normalize every value before persistence:
+   - strings stay strings
+   - numbers stay numbers
+   - booleans become `0/1`
+   - `Date` values become ISO strings
+   - missing values become `NULL`
+2. Escape SQL string literals safely
+3. Build the final `INSERT INTO ... VALUES (...)` SQL string yourself
+4. Execute it with `db.execAsync(sql)`
+
+This avoids sending a JS bind object over the Expo SQLite Android bridge.
+
+```typescript
+// ❌ Unreliable on Android in this project
+await db.runAsync(
+  'INSERT INTO videos (id, title, city) VALUES ($id, $title, $city)',
+  { $id: id, $title: title, $city: city }
+);
+
+// ✅ Reliable on Android
+const sql = `
+  INSERT INTO videos (id, title, city)
+  VALUES ('${escapeSql(id)}', '${escapeSql(title)}', ${city ? `'${escapeSql(city)}'` : 'NULL'})
+`;
+await db.execAsync(sql);
+```
+
+**Scope:** This learning is specifically important for the SQLite cache write path on Android. Read queries (`getAllAsync`, `getFirstAsync`) can still use primitive query parameters, but the cache insert path should prefer raw SQL string execution for reliability in this stack.
 
 ### 13.6 react-native-maps Unreliable — Use Leaflet.js in WebView Instead
 
