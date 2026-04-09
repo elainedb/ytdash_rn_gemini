@@ -16,6 +16,8 @@
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",
     "@react-native-firebase/app": "^23.8.8",
+    "@react-native-firebase/perf": "^23.8.8",
+    "@react-native-google-signin/google-signin": "^16.1.2",
     "@react-navigation/bottom-tabs": "^7.4.0",
     "@react-navigation/elements": "^2.6.3",
     "@react-navigation/native": "^7.1.8",
@@ -27,6 +29,7 @@
     "expo-linking": "~8.0.11",
     "expo-router": "~6.0.23",
     "expo-splash-screen": "~31.0.13",
+    "expo-sqlite": "^14.0.6",
     "expo-status-bar": "~3.0.9",
     "expo-symbols": "~1.0.8",
     "expo-system-ui": "~6.0.9",
@@ -39,7 +42,10 @@
     "react-native-safe-area-context": "~5.6.0",
     "react-native-screens": "~4.16.0",
     "react-native-web": "~0.21.0",
-    "react-native-worklets": "0.5.1"
+    "react-native-webview": "^13.16.1",
+    "react-native-worklets": "0.5.1",
+    "zod": "^4.3.6",
+    "zustand": "^5.0.12"
   },
   "devDependencies": {
     "@testing-library/jest-native": "^5.4.3",
@@ -50,7 +56,9 @@
     "eslint-config-expo": "~10.0.0",
     "jest": "^30.3.0",
     "jest-environment-jsdom": "^30.3.0",
+    "msw": "^2.13.2",
     "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
     "typescript": "~5.9.2"
   },
   "private": true
