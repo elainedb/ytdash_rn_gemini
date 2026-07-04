@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="Pixel_9a" tests="1" failures="1" time="1.0">
+    <testcase id="AC-LOGIN-01" name="AC-LOGIN-01" classname="AC-LOGIN-01" file="flows/AC-LOGIN-01.yaml" time="1.0" status="ERROR">
+      <properties>
+        <property name="tags" value="login, smoke"/>
+      </properties>
+      <failure>Unable to launch app undefined</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
