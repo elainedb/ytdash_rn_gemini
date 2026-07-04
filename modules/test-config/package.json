@@ -1,0 +1,10 @@
+{
+  "name": "test-config",
+  "version": "1.0.0",
+  "description": "Local test config expo module",
+  "main": "src/TestConfigModule.ts",
+  "types": "src/TestConfig.types.ts",
+  "peerDependencies": {
+    "expo": "*"
+  }
+}
