@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["TestconfigModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.testconfig.TestconfigModule"]
+  }
+}
