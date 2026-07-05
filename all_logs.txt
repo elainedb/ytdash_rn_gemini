@@ -1,0 +1,1085 @@
+--------- beginning of main
+08-03 21:30:36.553  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3372}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:36.568  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:36.752  2261  3060 D IpClient/wlan0: interfaceLinkStateChanged: ifindex 47 up
+08-03 21:30:36.845  1257  1257 I adbd    : adbd service requested 'shell,v2,TERM=xterm-ghostty,raw:settings get secure accessibility_enabled'
+08-03 21:30:37.013   983  3004 I WifiHAL : Creating message to get link statistics; iface = 47
+08-03 21:30:37.136   983  3004 D WifiHAL : Start debug command: mType GET_FEATURE
+08-03 21:30:37.136   983  3004 I WifiHAL : CreateRequest mType = GET_FEATURE
+08-03 21:30:37.136   983  3004 D WifiHAL : In DebugCommand::handleResponse, mType:GET_FEATURE
+08-03 21:30:37.136   983  3004 D WifiHAL : len = 4, expected len = 4
+08-03 21:30:37.554  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3371}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:37.571  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:37.905  1257  1257 I adbd    : adbd service requested 'shell,v2,raw:getprop ro.kernel.qemu'
+08-03 21:30:38.328  1257  1257 I adbd    : adbd service requested 'shell,v2,raw:getprop ro.kernel.qemu'
+08-03 21:30:38.555  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3370}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:38.574  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:38.579  1257  1257 I adbd    : adbd service requested 'shell,v2,raw:getprop ro.kernel.qemu'
+08-03 21:30:39.555  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3369}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:39.566  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:40.149   983  1076 I WifiHAL : Creating message to get link statistics; iface = 47
+08-03 21:30:40.277   983  1076 D WifiHAL : Start debug command: mType GET_FEATURE
+08-03 21:30:40.277   983  1076 I WifiHAL : CreateRequest mType = GET_FEATURE
+08-03 21:30:40.277   983  1076 D WifiHAL : In DebugCommand::handleResponse, mType:GET_FEATURE
+08-03 21:30:40.277   983  1076 D WifiHAL : len = 4, expected len = 4
+08-03 21:30:40.557  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3368}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:40.569  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:41.559  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3367}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:41.570  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+--------- beginning of system
+08-03 21:30:41.622  1441  1961 D ActivityManager: freezing 4924 com.android.vending:background
+08-03 21:30:41.810  1441  1961 D ActivityManager: freezing 13610 com.android.vending
+08-03 21:30:41.822  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+08-03 21:30:41.834  1441  2019 D InetDiagMessage: Destroyed 4 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+08-03 21:30:41.834  1441  2019 D InetDiagMessage: Destroyed live tcp sockets for uids={1010161} in 15ms
+08-03 21:30:41.933  1257  1257 I adbd    : adbd service requested 'shell,v2,TERM=xterm-ghostty,raw:settings get secure accessibility_enabled'
+08-03 21:30:42.073  1441  1989 D StorageManagerService: Thinking about reset, mBootCompleted=true, mDaemonConnected=true
+08-03 21:30:42.074  1441  1989 I Watchdog: Pausing of HandlerChecker: monitor thread for reason: #onReset might be slow. Pause end time: 11063772
+08-03 21:30:42.074  1441  1989 I StorageSessionController: Started resetting external storage service...
+08-03 21:30:42.074  1441  1989 I StorageSessionController: Unmounting emulated;10
+08-03 21:30:42.074   523   523 W vold    : emulated;10 unmount requires state mounted
+08-03 21:30:42.075  1441  1989 E StorageSessionController: Failed to unmount volume: emulated;10
+08-03 21:30:42.075  1441  1989 E StorageSessionController: android.os.ServiceSpecificException:  (code -16)
+08-03 21:30:42.075  1441  1989 E StorageSessionController: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3384)
+08-03 21:30:42.075  1441  1989 E StorageSessionController: 	at android.os.Parcel.createException(Parcel.java:3354)
+08-03 21:30:42.075  1441  1989 E StorageSessionController: 	at android.os.Parcel.readException(Parcel.java:3337)
+08-03 21:30:42.075  1441  1989 E StorageSessionController: 	at android.os.Parcel.readException(Parcel.java:3279)
+08-03 21:30:42.075  1441  1989 E StorageSessionController: 	at android.os.IVold$Stub$Proxy.unmount(IVold.java:1778)
+08-03 21:30:42.075  1441  1989 E StorageSessionController: 	at com.android.server.storage.StorageSessionController.onReset(StorageSessionController.java:330)
+08-03 21:30:42.075  1441  1989 E StorageSessionController: 	at com.android.server.StorageManagerService.resetIfBootedAndConnected(StorageManagerService.java:1110)
+08-03 21:30:42.075  1441  1989 E StorageSessionController: 	at com.android.server.StorageManagerService.-$$Nest$mresetIfBootedAndConnected(StorageManagerService.java:0)
+08-03 21:30:42.075  1441  1989 E StorageSessionController: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:817)
+08-03 21:30:42.075  1441  1989 E StorageSessionController: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:30:42.075  1441  1989 E StorageSessionController: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:30:42.075  1441  1989 E StorageSessionController: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:30:42.075  1441  1989 E StorageSessionController: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:30:42.075  1441  1989 E StorageSessionController: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:30:42.076  1441  1989 I StorageSessionController: Exiting emulated;10
+08-03 21:30:42.076  1441  1989 I StorageUserConnection: Waiting for session end [SessionId: emulated;10. UpperPath: /storage/emulated. LowerPath: /data/media] ...
+08-03 21:30:42.076  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:30:42.076  1441  1989 I StorageSessionController: Exited emulated;10
+08-03 21:30:42.076  1441  1989 I StorageUserConnection: Closing connection for user 10
+08-03 21:30:42.076  1441  1989 I StorageSessionController: Finished resetting external storage service
+08-03 21:30:42.076  1441  1989 I StorageManagerService: Resetting vold...
+08-03 21:30:42.077  1441  1989 I StorageManagerService: Reset vold
+08-03 21:30:42.077   523   523 I vold    : onUserAdded: 0
+08-03 21:30:42.078   523   523 I vold    : onUserAdded: 10
+08-03 21:30:42.078   523   523 I vold    : onUserStarted: 10
+08-03 21:30:42.080  1441  4488 W UserManager: The System (uid 1000) is fetching a copy of UserProperties on behalf of callingUid 0. Possibly it should carefully first clearCallingIdentity or perhaps use UserManagerInternal.getUserProperties() instead?
+08-03 21:30:42.080  1441  4488 W UserManager: java.lang.Throwable
+08-03 21:30:42.080  1441  4488 W UserManager: 	at android.os.UserManager.getUserProperties(UserManager.java:4189)
+08-03 21:30:42.080  1441  4488 W UserManager: 	at android.os.UserManager.isMediaSharedWithParent(UserManager.java:6418)
+08-03 21:30:42.080  1441  4488 W UserManager: 	at com.android.server.StorageManagerService.onVolumeCreatedLocked(StorageManagerService.java:1634)
+08-03 21:30:42.080  1441  4488 W UserManager: 	at com.android.server.StorageManagerService.-$$Nest$monVolumeCreatedLocked(StorageManagerService.java:0)
+08-03 21:30:42.080  1441  4488 W UserManager: 	at com.android.server.StorageManagerService$3.onVolumeCreated(StorageManagerService.java:1515)
+08-03 21:30:42.080  1441  4488 W UserManager: 	at android.os.IVoldListener$Stub.onTransact(IVoldListener.java:200)
+08-03 21:30:42.080  1441  4488 W UserManager: 	at android.os.Binder.execTransactInternal(Binder.java:1471)
+08-03 21:30:42.080  1441  4488 W UserManager: 	at android.os.Binder.execTransact(Binder.java:1411)
+08-03 21:30:42.081  1441  4488 V StorageManagerService: Found primary storage at VolumeInfo{emulated;10}:
+08-03 21:30:42.081  1441  4488 V StorageManagerService:     type=EMULATED diskId=null partGuid= mountFlags=0 mountUserId=10 
+08-03 21:30:42.081  1441  4488 V StorageManagerService:     state=UNMOUNTED 
+08-03 21:30:42.081  1441  4488 V StorageManagerService:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:30:42.081  1441  4488 V StorageManagerService:     path=null internalPath=null 
+08-03 21:30:42.083  1441  1961 D ActivityManager: freezing 14485 com.android.externalstorage
+08-03 21:30:42.083  1441  1989 I StorageManagerService: Mounting volume VolumeInfo{emulated;10}:
+08-03 21:30:42.083  1441  1989 I StorageManagerService:     type=EMULATED diskId=null partGuid= mountFlags=PRIMARY|VISIBLE_FOR_WRITE 
+08-03 21:30:42.083  1441  1989 I StorageManagerService:     mountUserId=10 state=UNMOUNTED 
+08-03 21:30:42.083  1441  1989 I StorageManagerService:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:30:42.083  1441  1989 I StorageManagerService:     path=null internalPath=null 
+08-03 21:30:42.083  1441  1989 I Watchdog: Pausing of HandlerChecker: monitor thread for reason: #mount might be slow. Pause end time: 11063782
+08-03 21:30:42.084   523   523 I vold    : Mounting emulated fuse volume
+08-03 21:30:42.085   523   523 I vold    : Creating mount directory /mnt/user/10
+08-03 21:30:42.088  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+08-03 21:30:42.095   523   523 I vold    : Bind mounting /data/media to /mnt/pass_through/10/emulated
+08-03 21:30:42.095  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+08-03 21:30:42.095  1441  2019 D InetDiagMessage: Destroyed live tcp sockets for uids={1010076} in 9ms
+08-03 21:30:42.096  1441  1989 I StorageSessionController: On volume mount VolumeInfo{emulated;10}:
+08-03 21:30:42.096  1441  1989 I StorageSessionController:     type=EMULATED diskId=null partGuid= mountFlags=PRIMARY|VISIBLE_FOR_WRITE 
+08-03 21:30:42.096  1441  1989 I StorageSessionController:     mountUserId=10 state=CHECKING 
+08-03 21:30:42.096  1441  1989 I StorageSessionController:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:30:42.096  1441  1989 I StorageSessionController:     path=/storage/emulated internalPath=/data/media 
+08-03 21:30:42.096  1441  1989 W UserManager: The System (uid 1000) is fetching a copy of UserProperties on behalf of callingUid 0. Possibly it should carefully first clearCallingIdentity or perhaps use UserManagerInternal.getUserProperties() instead?
+08-03 21:30:42.096  1441  1989 W UserManager: java.lang.Throwable
+08-03 21:30:42.096  1441  1989 W UserManager: 	at android.os.UserManager.getUserProperties(UserManager.java:4189)
+08-03 21:30:42.096  1441  1989 W UserManager: 	at android.os.UserManager.isMediaSharedWithParent(UserManager.java:6418)
+08-03 21:30:42.096  1441  1989 W UserManager: 	at com.android.server.storage.StorageSessionController.getConnectionUserIdForVolume(StorageSessionController.java:87)
+08-03 21:30:42.096  1441  1989 W UserManager: 	at com.android.server.storage.StorageSessionController.onVolumeMount(StorageSessionController.java:121)
+08-03 21:30:42.096  1441  1989 W UserManager: 	at com.android.server.StorageManagerService$8.onVolumeChecking(StorageManagerService.java:2419)
+08-03 21:30:42.096  1441  1989 W UserManager: 	at android.os.IVoldMountCallback$Stub.onTransact(IVoldMountCallback.java:94)
+08-03 21:30:42.096  1441  1989 W UserManager: 	at android.os.Binder.execTransactInternal(Binder.java:1471)
+08-03 21:30:42.096  1441  1989 W UserManager: 	at android.os.Binder.execTransact(Binder.java:1411)
+08-03 21:30:42.096  1441  1989 W UserManager: 	at android.os.BinderProxy.transactNative(Native Method)
+08-03 21:30:42.096  1441  1989 W UserManager: 	at android.os.BinderProxy.transact(BinderProxy.java:602)
+08-03 21:30:42.096  1441  1989 W UserManager: 	at android.os.IVold$Stub$Proxy.mount(IVold.java:1761)
+08-03 21:30:42.096  1441  1989 W UserManager: 	at com.android.server.StorageManagerService.mount(StorageManagerService.java:2408)
+08-03 21:30:42.096  1441  1989 W UserManager: 	at com.android.server.StorageManagerService.-$$Nest$mmount(StorageManagerService.java:0)
+08-03 21:30:42.096  1441  1989 W UserManager: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:778)
+08-03 21:30:42.096  1441  1989 W UserManager: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:30:42.096  1441  1989 W UserManager: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:30:42.096  1441  1989 W UserManager: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:30:42.096  1441  1989 W UserManager: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:30:42.096  1441  1989 W UserManager: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:30:42.096  1441  1989 I StorageSessionController: Creating connection for user: 10
+08-03 21:30:42.097  1441  1989 I StorageSessionController: Creating and starting session with id: emulated;10
+08-03 21:30:42.098  1441  1989 E StorageManagerService: Failed to mount volume VolumeInfo{emulated;10}:
+08-03 21:30:42.098  1441  1989 E StorageManagerService:     type=EMULATED diskId=null partGuid= mountFlags=PRIMARY|VISIBLE_FOR_WRITE 
+08-03 21:30:42.098  1441  1989 E StorageManagerService:     mountUserId=10 state=CHECKING 
+08-03 21:30:42.098  1441  1989 E StorageManagerService:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:30:42.098  1441  1989 E StorageManagerService:     path=/storage/emulated internalPath=/data/media 
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 
+08-03 21:30:42.098  1441  1989 E StorageManagerService: com.android.server.storage.StorageSessionController$ExternalStorageServiceException: Failed to start session: [SessionId: emulated;10. UpperPath: /storage/emulated. LowerPath: /data/media]
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.startSession(StorageUserConnection.java:414)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection.startSession(StorageUserConnection.java:111)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageSessionController.onVolumeMount(StorageSessionController.java:133)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService$8.onVolumeChecking(StorageManagerService.java:2419)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at android.os.IVoldMountCallback$Stub.onTransact(IVoldMountCallback.java:94)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at android.os.Binder.execTransactInternal(Binder.java:1471)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at android.os.Binder.execTransact(Binder.java:1411)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at android.os.BinderProxy.transactNative(Native Method)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at android.os.BinderProxy.transact(BinderProxy.java:602)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at android.os.IVold$Stub$Proxy.mount(IVold.java:1761)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.mount(StorageManagerService.java:2408)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.-$$Nest$mmount(StorageManagerService.java:0)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:778)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: Caused by: com.android.server.storage.StorageSessionController$ExternalStorageServiceException: Not ready to bind to the ExternalStorageService for user 10
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.connectIfNeeded(StorageUserConnection.java:489)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.waitForAsync(StorageUserConnection.java:375)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.waitForAsyncVoid(StorageUserConnection.java:365)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.waitForAsyncVoid(StorageUserConnection.java:356)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.startSession(StorageUserConnection.java:410)
+08-03 21:30:42.098  1441  1989 E StorageManagerService: 	... 17 more
+08-03 21:30:42.098  1441  1989 I StorageManagerService: Scheduling reset in 10s
+08-03 21:30:42.098   523   523 I vold    : fuse_unmounter scope_guard running
+08-03 21:30:42.098   523   523 I vold    : Unmounting fuse paths
+08-03 21:30:42.098   523   523 I vold    : Unmounting fuse path /mnt/user/10/emulated
+08-03 21:30:42.103   523   523 I vold    : Unmounting fuse path /mnt/pass_through/10/emulated
+08-03 21:30:42.103   523   523 I vold    : sdcardfs_unmounter scope_guard running
+08-03 21:30:42.104  1441  1989 E StorageManagerService: android.os.ServiceSpecificException:  (code -5)
+08-03 21:30:42.104  1441  1989 E StorageManagerService: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3384)
+08-03 21:30:42.104  1441  1989 E StorageManagerService: 	at android.os.Parcel.createException(Parcel.java:3354)
+08-03 21:30:42.104  1441  1989 E StorageManagerService: 	at android.os.Parcel.readException(Parcel.java:3337)
+08-03 21:30:42.104  1441  1989 E StorageManagerService: 	at android.os.Parcel.readException(Parcel.java:3279)
+08-03 21:30:42.104  1441  1989 E StorageManagerService: 	at android.os.IVold$Stub$Proxy.mount(IVold.java:1762)
+08-03 21:30:42.104  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.mount(StorageManagerService.java:2408)
+08-03 21:30:42.104  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.-$$Nest$mmount(StorageManagerService.java:0)
+08-03 21:30:42.104  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:778)
+08-03 21:30:42.104  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:30:42.104  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:30:42.104  1441  1989 E StorageManagerService: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:30:42.104  1441  1989 E StorageManagerService: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:30:42.104  1441  1989 E StorageManagerService: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:30:42.105  1441  1989 I StorageSessionController: Notifying volume state changed for session with id: emulated;10
+08-03 21:30:42.105  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:30:42.105  1441  1989 I StorageSessionController: Notifying volume state changed for session with id: emulated;10
+08-03 21:30:42.106  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:30:42.106  1441  1989 I StorageSessionController: Notifying volume state changed for session with id: emulated;10
+08-03 21:30:42.106  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:30:42.106  1441  1441 W StorageManagerService: No primary storage defined yet; hacking together a stub
+08-03 21:30:42.107  1441  4492 W StorageManagerService: No primary storage defined yet; hacking together a stub
+08-03 21:30:42.107  1441  1989 D StorageManagerService: Volume emulated;10 broadcasting checking to UserHandle{10}
+08-03 21:30:42.108  1441  1735 D ActivityManager: sync unfroze 14485 com.android.externalstorage for 3
+08-03 21:30:42.109 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:30:42.112 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:30:42.112  1441  1989 D StorageManagerService: Volume emulated;10 broadcasting unmountable to UserHandle{10}
+08-03 21:30:42.113  1441  4492 W StorageManagerService: Reporting emulated;10 unmounted due to system locked
+08-03 21:30:42.114 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:30:42.115 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:30:42.117 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:30:42.561  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3366}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:42.575  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:43.286   983  1076 I WifiHAL : Creating message to get link statistics; iface = 47
+08-03 21:30:43.410   983  1076 D WifiHAL : Start debug command: mType GET_FEATURE
+08-03 21:30:43.410   983  1076 I WifiHAL : CreateRequest mType = GET_FEATURE
+08-03 21:30:43.411   983  1076 D WifiHAL : In DebugCommand::handleResponse, mType:GET_FEATURE
+08-03 21:30:43.411   983  1076 D WifiHAL : len = 4, expected len = 4
+08-03 21:30:43.562  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3365}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:43.575  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:44.563  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3364}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:44.577  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:45.564  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3363}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:45.579  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:46.424   983  3004 I WifiHAL : Creating message to get link statistics; iface = 47
+08-03 21:30:46.547   983  3004 D WifiHAL : Start debug command: mType GET_FEATURE
+08-03 21:30:46.548   983  3004 I WifiHAL : CreateRequest mType = GET_FEATURE
+08-03 21:30:46.548   983  3004 D WifiHAL : In DebugCommand::handleResponse, mType:GET_FEATURE
+08-03 21:30:46.548   983  3004 D WifiHAL : len = 4, expected len = 4
+08-03 21:30:46.565  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3362}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:46.582  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:46.963 22695 22695 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.onboardingconsent.api.ConsentManagerApiService.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsApiService }
+08-03 21:30:47.010  1257  1257 I adbd    : adbd service requested 'shell,v2,TERM=xterm-ghostty,raw:settings get secure accessibility_enabled'
+08-03 21:30:47.046 22695 22695 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+08-03 21:30:47.566  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3361}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:47.584  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:48.567  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3360}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:48.586  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:48.787  1257  1257 I adbd    : adbd service requested 'shell,v2,TERM=xterm-ghostty:export ANDROID_LOG_TAGS=''; exec logcat '-d''
+08-03 21:30:48.938  1441  1961 D ActivityManager: freezing 2900 com.google.android.gms
+08-03 21:30:49.560   983  3004 I WifiHAL : Creating message to get link statistics; iface = 47
+08-03 21:30:49.568  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3359}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:49.581  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:49.682   983  3004 E libbinder.IPCThreadState: binder thread pool (1 threads) starved for 122 ms
+08-03 21:30:49.718   983  3004 D WifiHAL : Start debug command: mType GET_FEATURE
+08-03 21:30:49.718   983  3004 I WifiHAL : CreateRequest mType = GET_FEATURE
+08-03 21:30:49.718   983  3004 D WifiHAL : In DebugCommand::handleResponse, mType:GET_FEATURE
+08-03 21:30:49.718   983  3004 D WifiHAL : len = 4, expected len = 4
+08-03 21:30:49.820  2655 11776 I .gms.persistent: Explicit concurrent mark compact GC freed 900KB AllocSpace bytes, 0(0B) LOS objects, 98% free, 3475KB/256MB, paused 394us,3.695ms total 92.397ms
+08-03 21:30:50.215  1441  1678 I system_server: Background young concurrent mark compact GC freed 23MB AllocSpace bytes, 43(1516KB) LOS objects, 87% free, 62MB/512MB, paused 1.801ms,3.763ms total 174.358ms
+08-03 21:30:50.217  1441  1679 I libbinder.BpBinder: onLastStrongRef automatically unlinking death recipients for binder (0xb4000075510d8480) with descriptor: '(not cached)'
+08-03 21:30:50.570  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3358}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:50.579  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:51.529  1441  1961 D ActivityManager: freezing 3706 com.google.android.permissioncontroller
+08-03 21:30:51.531  1441  1961 D ActivityManager: freezing 2865 com.google.android.permissioncontroller
+08-03 21:30:51.537  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+08-03 21:30:51.538  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+08-03 21:30:51.538  1441  2019 D InetDiagMessage: Destroyed live tcp sockets for uids={1010234} in 3ms
+08-03 21:30:51.570  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3357}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:51.581  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:51.606  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+08-03 21:30:51.607  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+08-03 21:30:51.607  1441  2019 D InetDiagMessage: Destroyed live tcp sockets for uids={10234} in 2ms
+08-03 21:30:52.090  1257  1257 I adbd    : adbd service requested 'shell,v2,TERM=xterm-ghostty,raw:settings get secure accessibility_enabled'
+08-03 21:30:52.106  1441  1989 D StorageManagerService: Thinking about reset, mBootCompleted=true, mDaemonConnected=true
+08-03 21:30:52.106  1441  1989 I Watchdog: Pausing of HandlerChecker: monitor thread for reason: #onReset might be slow. Pause end time: 11073805
+08-03 21:30:52.106  1441  1989 I StorageSessionController: Started resetting external storage service...
+08-03 21:30:52.106  1441  1989 I StorageSessionController: Unmounting emulated;10
+08-03 21:30:52.107   523   523 W vold    : emulated;10 unmount requires state mounted
+08-03 21:30:52.108  1441  1989 E StorageSessionController: Failed to unmount volume: emulated;10
+08-03 21:30:52.108  1441  1989 E StorageSessionController: android.os.ServiceSpecificException:  (code -16)
+08-03 21:30:52.108  1441  1989 E StorageSessionController: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3384)
+08-03 21:30:52.108  1441  1989 E StorageSessionController: 	at android.os.Parcel.createException(Parcel.java:3354)
+08-03 21:30:52.108  1441  1989 E StorageSessionController: 	at android.os.Parcel.readException(Parcel.java:3337)
+08-03 21:30:52.108  1441  1989 E StorageSessionController: 	at android.os.Parcel.readException(Parcel.java:3279)
+08-03 21:30:52.108  1441  1989 E StorageSessionController: 	at android.os.IVold$Stub$Proxy.unmount(IVold.java:1778)
+08-03 21:30:52.108  1441  1989 E StorageSessionController: 	at com.android.server.storage.StorageSessionController.onReset(StorageSessionController.java:330)
+08-03 21:30:52.108  1441  1989 E StorageSessionController: 	at com.android.server.StorageManagerService.resetIfBootedAndConnected(StorageManagerService.java:1110)
+08-03 21:30:52.108  1441  1989 E StorageSessionController: 	at com.android.server.StorageManagerService.-$$Nest$mresetIfBootedAndConnected(StorageManagerService.java:0)
+08-03 21:30:52.108  1441  1989 E StorageSessionController: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:817)
+08-03 21:30:52.108  1441  1989 E StorageSessionController: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:30:52.108  1441  1989 E StorageSessionController: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:30:52.108  1441  1989 E StorageSessionController: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:30:52.108  1441  1989 E StorageSessionController: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:30:52.108  1441  1989 E StorageSessionController: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:30:52.108  1441  1989 I StorageSessionController: Exiting emulated;10
+08-03 21:30:52.108  1441  1989 I StorageUserConnection: Waiting for session end [SessionId: emulated;10. UpperPath: /storage/emulated. LowerPath: /data/media] ...
+08-03 21:30:52.108  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:30:52.108  1441  1989 I StorageSessionController: Exited emulated;10
+08-03 21:30:52.108  1441  1989 I StorageUserConnection: Closing connection for user 10
+08-03 21:30:52.108  1441  1989 I StorageSessionController: Finished resetting external storage service
+08-03 21:30:52.109  1441  1989 I StorageManagerService: Resetting vold...
+08-03 21:30:52.110  1441  1989 I StorageManagerService: Reset vold
+08-03 21:30:52.110   523   523 I vold    : onUserAdded: 0
+08-03 21:30:52.110   523   523 I vold    : onUserAdded: 10
+08-03 21:30:52.110   523   523 I vold    : onUserStarted: 10
+08-03 21:30:52.112  1441  2586 W UserManager: The System (uid 1000) is fetching a copy of UserProperties on behalf of callingUid 0. Possibly it should carefully first clearCallingIdentity or perhaps use UserManagerInternal.getUserProperties() instead?
+08-03 21:30:52.112  1441  2586 W UserManager: java.lang.Throwable
+08-03 21:30:52.112  1441  2586 W UserManager: 	at android.os.UserManager.getUserProperties(UserManager.java:4189)
+08-03 21:30:52.112  1441  2586 W UserManager: 	at android.os.UserManager.isMediaSharedWithParent(UserManager.java:6418)
+08-03 21:30:52.112  1441  2586 W UserManager: 	at com.android.server.StorageManagerService.onVolumeCreatedLocked(StorageManagerService.java:1634)
+08-03 21:30:52.112  1441  2586 W UserManager: 	at com.android.server.StorageManagerService.-$$Nest$monVolumeCreatedLocked(StorageManagerService.java:0)
+08-03 21:30:52.112  1441  2586 W UserManager: 	at com.android.server.StorageManagerService$3.onVolumeCreated(StorageManagerService.java:1515)
+08-03 21:30:52.112  1441  2586 W UserManager: 	at android.os.IVoldListener$Stub.onTransact(IVoldListener.java:200)
+08-03 21:30:52.112  1441  2586 W UserManager: 	at android.os.Binder.execTransactInternal(Binder.java:1471)
+08-03 21:30:52.112  1441  2586 W UserManager: 	at android.os.Binder.execTransact(Binder.java:1411)
+08-03 21:30:52.114  1441  2586 V StorageManagerService: Found primary storage at VolumeInfo{emulated;10}:
+08-03 21:30:52.114  1441  2586 V StorageManagerService:     type=EMULATED diskId=null partGuid= mountFlags=0 mountUserId=10 
+08-03 21:30:52.114  1441  2586 V StorageManagerService:     state=UNMOUNTED 
+08-03 21:30:52.114  1441  2586 V StorageManagerService:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:30:52.114  1441  2586 V StorageManagerService:     path=null internalPath=null 
+08-03 21:30:52.114  1441  1989 I StorageManagerService: Mounting volume VolumeInfo{emulated;10}:
+08-03 21:30:52.114  1441  1989 I StorageManagerService:     type=EMULATED diskId=null partGuid= mountFlags=PRIMARY|VISIBLE_FOR_WRITE 
+08-03 21:30:52.114  1441  1989 I StorageManagerService:     mountUserId=10 state=UNMOUNTED 
+08-03 21:30:52.114  1441  1989 I StorageManagerService:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:30:52.114  1441  1989 I StorageManagerService:     path=null internalPath=null 
+08-03 21:30:52.114  1441  1989 I Watchdog: Pausing of HandlerChecker: monitor thread for reason: #mount might be slow. Pause end time: 11073813
+08-03 21:30:52.115   523   523 I vold    : Mounting emulated fuse volume
+08-03 21:30:52.116   523   523 I vold    : Creating mount directory /mnt/user/10
+08-03 21:30:52.121  1441  1961 D ActivityManager: freezing 14485 com.android.externalstorage
+08-03 21:30:52.124   523   523 I vold    : Bind mounting /data/media to /mnt/pass_through/10/emulated
+08-03 21:30:52.125  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+08-03 21:30:52.126  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+08-03 21:30:52.127  1441  2019 D InetDiagMessage: Destroyed live tcp sockets for uids={1010076} in 3ms
+08-03 21:30:52.133  1441  1989 I StorageSessionController: On volume mount VolumeInfo{emulated;10}:
+08-03 21:30:52.133  1441  1989 I StorageSessionController:     type=EMULATED diskId=null partGuid= mountFlags=PRIMARY|VISIBLE_FOR_WRITE 
+08-03 21:30:52.133  1441  1989 I StorageSessionController:     mountUserId=10 state=CHECKING 
+08-03 21:30:52.133  1441  1989 I StorageSessionController:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:30:52.133  1441  1989 I StorageSessionController:     path=/storage/emulated internalPath=/data/media 
+08-03 21:30:52.134  1441  1989 W UserManager: The System (uid 1000) is fetching a copy of UserProperties on behalf of callingUid 0. Possibly it should carefully first clearCallingIdentity or perhaps use UserManagerInternal.getUserProperties() instead?
+08-03 21:30:52.134  1441  1989 W UserManager: java.lang.Throwable
+08-03 21:30:52.134  1441  1989 W UserManager: 	at android.os.UserManager.getUserProperties(UserManager.java:4189)
+08-03 21:30:52.134  1441  1989 W UserManager: 	at android.os.UserManager.isMediaSharedWithParent(UserManager.java:6418)
+08-03 21:30:52.134  1441  1989 W UserManager: 	at com.android.server.storage.StorageSessionController.getConnectionUserIdForVolume(StorageSessionController.java:87)
+08-03 21:30:52.134  1441  1989 W UserManager: 	at com.android.server.storage.StorageSessionController.onVolumeMount(StorageSessionController.java:121)
+08-03 21:30:52.134  1441  1989 W UserManager: 	at com.android.server.StorageManagerService$8.onVolumeChecking(StorageManagerService.java:2419)
+08-03 21:30:52.134  1441  1989 W UserManager: 	at android.os.IVoldMountCallback$Stub.onTransact(IVoldMountCallback.java:94)
+08-03 21:30:52.134  1441  1989 W UserManager: 	at android.os.Binder.execTransactInternal(Binder.java:1471)
+08-03 21:30:52.134  1441  1989 W UserManager: 	at android.os.Binder.execTransact(Binder.java:1411)
+08-03 21:30:52.134  1441  1989 W UserManager: 	at android.os.BinderProxy.transactNative(Native Method)
+08-03 21:30:52.134  1441  1989 W UserManager: 	at android.os.BinderProxy.transact(BinderProxy.java:602)
+08-03 21:30:52.134  1441  1989 W UserManager: 	at android.os.IVold$Stub$Proxy.mount(IVold.java:1761)
+08-03 21:30:52.134  1441  1989 W UserManager: 	at com.android.server.StorageManagerService.mount(StorageManagerService.java:2408)
+08-03 21:30:52.134  1441  1989 W UserManager: 	at com.android.server.StorageManagerService.-$$Nest$mmount(StorageManagerService.java:0)
+08-03 21:30:52.134  1441  1989 W UserManager: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:778)
+08-03 21:30:52.134  1441  1989 W UserManager: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:30:52.134  1441  1989 W UserManager: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:30:52.134  1441  1989 W UserManager: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:30:52.134  1441  1989 W UserManager: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:30:52.134  1441  1989 W UserManager: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:30:52.134  1441  1989 I StorageSessionController: Creating connection for user: 10
+08-03 21:30:52.135  1441  1989 I StorageSessionController: Creating and starting session with id: emulated;10
+08-03 21:30:52.136  1441  1989 E StorageManagerService: Failed to mount volume VolumeInfo{emulated;10}:
+08-03 21:30:52.136  1441  1989 E StorageManagerService:     type=EMULATED diskId=null partGuid= mountFlags=PRIMARY|VISIBLE_FOR_WRITE 
+08-03 21:30:52.136  1441  1989 E StorageManagerService:     mountUserId=10 state=CHECKING 
+08-03 21:30:52.136  1441  1989 E StorageManagerService:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:30:52.136  1441  1989 E StorageManagerService:     path=/storage/emulated internalPath=/data/media 
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 
+08-03 21:30:52.136  1441  1989 E StorageManagerService: com.android.server.storage.StorageSessionController$ExternalStorageServiceException: Failed to start session: [SessionId: emulated;10. UpperPath: /storage/emulated. LowerPath: /data/media]
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.startSession(StorageUserConnection.java:414)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection.startSession(StorageUserConnection.java:111)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageSessionController.onVolumeMount(StorageSessionController.java:133)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService$8.onVolumeChecking(StorageManagerService.java:2419)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at android.os.IVoldMountCallback$Stub.onTransact(IVoldMountCallback.java:94)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at android.os.Binder.execTransactInternal(Binder.java:1471)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at android.os.Binder.execTransact(Binder.java:1411)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at android.os.BinderProxy.transactNative(Native Method)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at android.os.BinderProxy.transact(BinderProxy.java:602)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at android.os.IVold$Stub$Proxy.mount(IVold.java:1761)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.mount(StorageManagerService.java:2408)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.-$$Nest$mmount(StorageManagerService.java:0)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:778)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: Caused by: com.android.server.storage.StorageSessionController$ExternalStorageServiceException: Not ready to bind to the ExternalStorageService for user 10
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.connectIfNeeded(StorageUserConnection.java:489)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.waitForAsync(StorageUserConnection.java:375)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.waitForAsyncVoid(StorageUserConnection.java:365)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.waitForAsyncVoid(StorageUserConnection.java:356)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.startSession(StorageUserConnection.java:410)
+08-03 21:30:52.136  1441  1989 E StorageManagerService: 	... 17 more
+08-03 21:30:52.136  1441  1989 I StorageManagerService: Scheduling reset in 10s
+08-03 21:30:52.136   523   523 I vold    : fuse_unmounter scope_guard running
+08-03 21:30:52.136   523   523 I vold    : Unmounting fuse paths
+08-03 21:30:52.136   523   523 I vold    : Unmounting fuse path /mnt/user/10/emulated
+08-03 21:30:52.142   523   523 I vold    : Unmounting fuse path /mnt/pass_through/10/emulated
+08-03 21:30:52.144   523   523 I vold    : sdcardfs_unmounter scope_guard running
+08-03 21:30:52.145  1441  1989 E StorageManagerService: android.os.ServiceSpecificException:  (code -5)
+08-03 21:30:52.145  1441  1989 E StorageManagerService: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3384)
+08-03 21:30:52.145  1441  1989 E StorageManagerService: 	at android.os.Parcel.createException(Parcel.java:3354)
+08-03 21:30:52.145  1441  1989 E StorageManagerService: 	at android.os.Parcel.readException(Parcel.java:3337)
+08-03 21:30:52.145  1441  1989 E StorageManagerService: 	at android.os.Parcel.readException(Parcel.java:3279)
+08-03 21:30:52.145  1441  1989 E StorageManagerService: 	at android.os.IVold$Stub$Proxy.mount(IVold.java:1762)
+08-03 21:30:52.145  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.mount(StorageManagerService.java:2408)
+08-03 21:30:52.145  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.-$$Nest$mmount(StorageManagerService.java:0)
+08-03 21:30:52.145  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:778)
+08-03 21:30:52.145  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:30:52.145  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:30:52.145  1441  1989 E StorageManagerService: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:30:52.145  1441  1989 E StorageManagerService: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:30:52.145  1441  1989 E StorageManagerService: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:30:52.147  1441  1989 I StorageSessionController: Notifying volume state changed for session with id: emulated;10
+08-03 21:30:52.147  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:30:52.148  1441  1989 I StorageSessionController: Notifying volume state changed for session with id: emulated;10
+08-03 21:30:52.148  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:30:52.148  1441  1989 I StorageSessionController: Notifying volume state changed for session with id: emulated;10
+08-03 21:30:52.148  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:30:52.148  1441  1441 W StorageManagerService: No primary storage defined yet; hacking together a stub
+08-03 21:30:52.149  1441  2586 W StorageManagerService: No primary storage defined yet; hacking together a stub
+08-03 21:30:52.152 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:30:52.153  1441  1735 D ActivityManager: sync unfroze 14485 com.android.externalstorage for 3
+08-03 21:30:52.154 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:30:52.156  1441  1989 D StorageManagerService: Volume emulated;10 broadcasting checking to UserHandle{10}
+08-03 21:30:52.157  1441  2438 W StorageManagerService: Reporting emulated;10 unmounted due to system locked
+08-03 21:30:52.158  1441  1989 D StorageManagerService: Volume emulated;10 broadcasting unmountable to UserHandle{10}
+08-03 21:30:52.159 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:30:52.160 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:30:52.163 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:30:52.571  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3356}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:52.583  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:52.723   983  3004 I WifiHAL : Creating message to get link statistics; iface = 47
+08-03 21:30:52.855   983  3004 E libbinder.IPCThreadState: binder thread pool (1 threads) starved for 131 ms
+08-03 21:30:52.909  1441  1951 D ActivityManager: sync unfroze 7837 com.google.android.partnersetup for 6
+08-03 21:30:52.911   983  3004 D WifiHAL : Start debug command: mType GET_FEATURE
+08-03 21:30:52.911   983  3004 I WifiHAL : CreateRequest mType = GET_FEATURE
+08-03 21:30:52.911   983  3004 D WifiHAL : In DebugCommand::handleResponse, mType:GET_FEATURE
+08-03 21:30:52.911   983  3004 D WifiHAL : len = 4, expected len = 4
+08-03 21:30:52.913  7837  7837 D ActivityThread: Package [com.example.ytdash_rn] reported as REPLACED, but missing application info. Assuming REMOVED.
+08-03 21:30:52.916  1441  1951 D ActivityManager: sync unfroze 13610 com.android.vending for 6
+08-03 21:30:52.919  7837  7837 D ActivityThread: Package [com.example.ytdash_rn] reported as REPLACED, but missing application info. Assuming REMOVED.
+08-03 21:30:52.920  7837  7837 D ActivityThread: Package [com.example.ytdash_rn] reported as REPLACED, but missing application info. Assuming REMOVED.
+08-03 21:30:52.920  7837  7837 D ActivityThread: Package [com.example.ytdash_rn] reported as REPLACED, but missing application info. Assuming REMOVED.
+08-03 21:30:52.920  7837  7837 D ActivityThread: Package [com.example.ytdash_rn] reported as REPLACED, but missing application info. Assuming REMOVED.
+08-03 21:30:52.920  7837  7837 D ActivityThread: Package [com.example.ytdash_rn] reported as REPLACED, but missing application info. Assuming REMOVED.
+08-03 21:30:52.920  7837  7837 D ActivityThread: Package [com.example.ytdash_rn] reported as REPLACED, but missing application info. Assuming REMOVED.
+08-03 21:30:52.921  7837  7837 D ActivityThread: Package [com.example.ytdash_rn] reported as REPLACED, but missing application info. Assuming REMOVED.
+08-03 21:30:52.926  1441  5439 W ProcessStats: Tracking association SourceState{231909b system/1000 ImpBg #13375} whose proc state 6 is better than process ProcessState{3987e71 com.google.android.partnersetup/1010112 pkg=com.google.android.partnersetup} proc state 14 (4 skipped)
+08-03 21:30:52.935 13610 13610 I Finsky  : [2] SCH: job service start with id 9301.
+08-03 21:30:52.938  7837 27303 W JobInfo : Job 'com.google.android.partnersetup/.InstalledAppJobService#4096' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+08-03 21:30:52.938  1441  5439 W JobInfo : Job 'com.google.android.partnersetup/.InstalledAppJobService#4096' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+08-03 21:30:52.941  7837  7837 W JobInfo : Job 'com.google.android.partnersetup/.InstalledAppJobService#4096' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+08-03 21:30:52.941  1441  5439 W JobInfo : Job 'com.google.android.partnersetup/.InstalledAppJobService#4096' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+08-03 21:30:52.950 13610 27199 I Finsky  : [555] SCH: Satisfied jobs for 9301 are: 12-1
+08-03 21:30:52.951  7837  7843 W id.partnersetup: Reducing the number of considered missed Gc histogram windows from 361 to 100
+08-03 21:30:52.952 13610 27236 I Finsky  : [568] SCH: Job 12-1 starting
+08-03 21:30:52.952  1441  5439 W JobScheduler: Job didn't exist in JobStore: 9c97625 #u10a112/4096 com.google.android.partnersetup/.InstalledAppJobService
+08-03 21:30:52.954 13610 13610 I Finsky  : [2] WM::SCH: Logging work start for 12-1
+08-03 21:30:52.956 13610 13610 I Finsky  : [2] [ContentSync] job started
+08-03 21:30:53.148 13610 27304 I Finsky  : [569] App states replicator found 97 unowned apps
+08-03 21:30:53.164 13610 13644 I Finsky  : [55] Completed 0 account content syncs with 0 successful.
+08-03 21:30:53.164 13610 13610 I Finsky  : [2] [ContentSync] Installation state replication succeeded.
+08-03 21:30:53.165 13610 13610 I Finsky  : [2] SCH: jobFinished: 12-1. TimeElapsed: 211ms.
+08-03 21:30:53.165 13610 13610 I Finsky  : [2] WM::SCH: Logging work end for 12-1
+08-03 21:30:53.183 13610 13654 I Finsky  : [63] SCH: Scheduling phonesky job Id: 1-1337, CT: 1785778241791, Constraints: [{ L: 16200000, D: 30788685, C: CHARGING_NONE, I: IDLE_NONE, N: NET_ANY, B: BATTERY_ANY }]
+08-03 21:30:53.188 13610 13662 I Finsky  : [67] SCH: Scheduling 1 system job(s)
+08-03 21:30:53.189 13610 13662 I Finsky  : [67] SCH: Scheduling system job Id: 9308, L: 8988603, D: 23577288, C: false, I: false, N: 1
+08-03 21:30:53.200 13610 27236 I Finsky  : [568] SCH: job service finished with id 9301.
+08-03 21:30:53.213 13610 13610 I Finsky  : [2] Memory trim requested to level 40
+08-03 21:30:53.214 13610 13610 I Finsky  : [2] Flushing in-memory image cache
+08-03 21:30:53.572  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3355}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:53.586  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:54.574  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3354}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:54.588  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:54.890 27173 27175 I libbinder.AidlLazyServiceRegistrar: Process has 0 (of 1 available) client(s) in use after notification artd has clients: 0
+08-03 21:30:54.890 27173 27175 I libbinder.AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+08-03 21:30:54.892 27173 27175 I libbinder.AidlLazyServiceRegistrar: Unregistered all clients and exiting
+08-03 21:30:55.574  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3353}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:55.591  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:55.648  1257  1257 I adbd    : adbd service requested 'shell,v2,TERM=xterm-ghostty:export ANDROID_LOG_TAGS=''; exec logcat '-d''
+08-03 21:30:55.929   983  3004 I WifiHAL : Creating message to get link statistics; iface = 47
+08-03 21:30:56.070   983  3004 D WifiHAL : Start debug command: mType GET_FEATURE
+08-03 21:30:56.070   983  3004 I WifiHAL : CreateRequest mType = GET_FEATURE
+08-03 21:30:56.070   983  3004 D WifiHAL : In DebugCommand::handleResponse, mType:GET_FEATURE
+08-03 21:30:56.070   983  3004 D WifiHAL : len = 4, expected len = 4
+08-03 21:30:56.576  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3352}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:56.596  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:57.074  1441  1961 D ActivityManager: freezing 22695 com.google.android.gms
+08-03 21:30:57.181  1257  1257 I adbd    : adbd service requested 'shell,v2,TERM=xterm-ghostty,raw:settings get secure accessibility_enabled'
+08-03 21:30:57.578  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3351}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:57.595  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:57.969  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+08-03 21:30:57.974  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+08-03 21:30:57.975  1441  2019 D InetDiagMessage: Destroyed live tcp sockets for uids={1010112} in 12ms
+08-03 21:30:57.980  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+08-03 21:30:57.985  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+08-03 21:30:57.985  1441  2019 D InetDiagMessage: Destroyed live tcp sockets for uids={1020112} in 11ms
+08-03 21:30:58.298   946   946 E android.hardware.power.stats-service.pixel: Failed to read uid_time_in_state for attribution, return default EnergyConsumer
+08-03 21:30:58.579  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3350}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:58.597  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:30:59.085   983  1076 I WifiHAL : Creating message to get link statistics; iface = 47
+08-03 21:30:59.200   983  1076 D WifiHAL : Start debug command: mType GET_FEATURE
+08-03 21:30:59.201   983  1076 I WifiHAL : CreateRequest mType = GET_FEATURE
+08-03 21:30:59.201   983  1076 D WifiHAL : In DebugCommand::handleResponse, mType:GET_FEATURE
+08-03 21:30:59.201   983  1076 D WifiHAL : len = 4, expected len = 4
+08-03 21:30:59.388  1257  1257 I adbd    : adbd service requested 'shell,v2,TERM=xterm-ghostty:export ANDROID_LOG_TAGS=''; exec logcat '-d''
+08-03 21:30:59.581  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3349}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:30:59.599  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:00.048   559   619 E hwc-display: [PrimaryDisplay] resetColorMappingInfoForClientComp:: resetColorMappingInfo() idx=1 error(-22)
+08-03 21:31:00.048   559   619 E hwc-display: Fail to open file /data/vendor/log/hwc/PrimaryDisplay_hwc_error_log0.txt, error: Permission denied
+08-03 21:31:00.048   559   619 E hwc-display: Fail to open file /data/log/PrimaryDisplay_hwc_error_log0.txt, error: No such file or directory
+08-03 21:31:00.049   559   619 E hwc-display: Unable to open log file for PrimaryDisplay_hwc_error_log0.txt
+08-03 21:31:00.044   559   559 W HwBinder:559_2: type=1400 audit(0.0:463): avc:  denied  { search } for  name="log" dev="dm-58" ino=320 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:vendor_log_file:s0 tclass=dir permissive=0
+08-03 21:31:00.044   559   559 W HwBinder:559_2: type=1400 audit(0.0:464): avc:  denied  { search } for  name="log" dev="dm-58" ino=320 scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:vendor_log_file:s0 tclass=dir permissive=0
+08-03 21:31:00.582  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3348}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:00.592  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:01.583  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3347}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:01.591  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:01.944   983  1076 I WifiHAL : Creating message to get link statistics; iface = 47
+08-03 21:31:02.148  1441  1989 D StorageManagerService: Thinking about reset, mBootCompleted=true, mDaemonConnected=true
+08-03 21:31:02.148  1441  1989 I Watchdog: Pausing of HandlerChecker: monitor thread for reason: #onReset might be slow. Pause end time: 11083847
+08-03 21:31:02.149  1441  1989 I StorageSessionController: Started resetting external storage service...
+08-03 21:31:02.149  1441  1989 I StorageSessionController: Unmounting emulated;10
+08-03 21:31:02.151   523   523 W vold    : emulated;10 unmount requires state mounted
+08-03 21:31:02.154  1441  1989 E StorageSessionController: Failed to unmount volume: emulated;10
+08-03 21:31:02.154  1441  1989 E StorageSessionController: android.os.ServiceSpecificException:  (code -16)
+08-03 21:31:02.154  1441  1989 E StorageSessionController: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3384)
+08-03 21:31:02.154  1441  1989 E StorageSessionController: 	at android.os.Parcel.createException(Parcel.java:3354)
+08-03 21:31:02.154  1441  1989 E StorageSessionController: 	at android.os.Parcel.readException(Parcel.java:3337)
+08-03 21:31:02.154  1441  1989 E StorageSessionController: 	at android.os.Parcel.readException(Parcel.java:3279)
+08-03 21:31:02.154  1441  1989 E StorageSessionController: 	at android.os.IVold$Stub$Proxy.unmount(IVold.java:1778)
+08-03 21:31:02.154  1441  1989 E StorageSessionController: 	at com.android.server.storage.StorageSessionController.onReset(StorageSessionController.java:330)
+08-03 21:31:02.154  1441  1989 E StorageSessionController: 	at com.android.server.StorageManagerService.resetIfBootedAndConnected(StorageManagerService.java:1110)
+08-03 21:31:02.154  1441  1989 E StorageSessionController: 	at com.android.server.StorageManagerService.-$$Nest$mresetIfBootedAndConnected(StorageManagerService.java:0)
+08-03 21:31:02.154  1441  1989 E StorageSessionController: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:817)
+08-03 21:31:02.154  1441  1989 E StorageSessionController: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:31:02.154  1441  1989 E StorageSessionController: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:31:02.154  1441  1989 E StorageSessionController: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:31:02.154  1441  1989 E StorageSessionController: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:31:02.154  1441  1989 E StorageSessionController: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:31:02.154  1441  1989 I StorageSessionController: Exiting emulated;10
+08-03 21:31:02.154  1441  1989 I StorageUserConnection: Waiting for session end [SessionId: emulated;10. UpperPath: /storage/emulated. LowerPath: /data/media] ...
+08-03 21:31:02.154  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:31:02.154  1441  1989 I StorageSessionController: Exited emulated;10
+08-03 21:31:02.154  1441  1989 I StorageUserConnection: Closing connection for user 10
+08-03 21:31:02.155  1441  1989 I StorageSessionController: Finished resetting external storage service
+08-03 21:31:02.155  1441  1989 I StorageManagerService: Resetting vold...
+08-03 21:31:02.157  1441  1989 I StorageManagerService: Reset vold
+08-03 21:31:02.158   523   603 I vold    : onUserAdded: 0
+08-03 21:31:02.158   523   603 I vold    : onUserAdded: 10
+08-03 21:31:02.159   523   603 I vold    : onUserStarted: 10
+08-03 21:31:02.161  1441  2586 W UserManager: The System (uid 1000) is fetching a copy of UserProperties on behalf of callingUid 0. Possibly it should carefully first clearCallingIdentity or perhaps use UserManagerInternal.getUserProperties() instead?
+08-03 21:31:02.161  1441  2586 W UserManager: java.lang.Throwable
+08-03 21:31:02.161  1441  2586 W UserManager: 	at android.os.UserManager.getUserProperties(UserManager.java:4189)
+08-03 21:31:02.161  1441  2586 W UserManager: 	at android.os.UserManager.isMediaSharedWithParent(UserManager.java:6418)
+08-03 21:31:02.161  1441  2586 W UserManager: 	at com.android.server.StorageManagerService.onVolumeCreatedLocked(StorageManagerService.java:1634)
+08-03 21:31:02.161  1441  2586 W UserManager: 	at com.android.server.StorageManagerService.-$$Nest$monVolumeCreatedLocked(StorageManagerService.java:0)
+08-03 21:31:02.161  1441  2586 W UserManager: 	at com.android.server.StorageManagerService$3.onVolumeCreated(StorageManagerService.java:1515)
+08-03 21:31:02.161  1441  2586 W UserManager: 	at android.os.IVoldListener$Stub.onTransact(IVoldListener.java:200)
+08-03 21:31:02.161  1441  2586 W UserManager: 	at android.os.Binder.execTransactInternal(Binder.java:1471)
+08-03 21:31:02.161  1441  2586 W UserManager: 	at android.os.Binder.execTransact(Binder.java:1411)
+08-03 21:31:02.163  1441  2586 V StorageManagerService: Found primary storage at VolumeInfo{emulated;10}:
+08-03 21:31:02.163  1441  2586 V StorageManagerService:     type=EMULATED diskId=null partGuid= mountFlags=0 mountUserId=10 
+08-03 21:31:02.163  1441  2586 V StorageManagerService:     state=UNMOUNTED 
+08-03 21:31:02.163  1441  2586 V StorageManagerService:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:31:02.163  1441  2586 V StorageManagerService:     path=null internalPath=null 
+08-03 21:31:02.164  1441  1989 I StorageManagerService: Mounting volume VolumeInfo{emulated;10}:
+08-03 21:31:02.164  1441  1989 I StorageManagerService:     type=EMULATED diskId=null partGuid= mountFlags=PRIMARY|VISIBLE_FOR_WRITE 
+08-03 21:31:02.164  1441  1989 I StorageManagerService:     mountUserId=10 state=UNMOUNTED 
+08-03 21:31:02.164  1441  1989 I StorageManagerService:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:31:02.164  1441  1989 I StorageManagerService:     path=null internalPath=null 
+08-03 21:31:02.164  1441  1989 I Watchdog: Pausing of HandlerChecker: monitor thread for reason: #mount might be slow. Pause end time: 11083863
+08-03 21:31:02.165   523   603 I vold    : Mounting emulated fuse volume
+08-03 21:31:02.167   523   603 I vold    : Creating mount directory /mnt/user/10
+08-03 21:31:02.184   523   603 I vold    : Bind mounting /data/media to /mnt/pass_through/10/emulated
+08-03 21:31:02.186  1441  1961 D ActivityManager: freezing 14485 com.android.externalstorage
+08-03 21:31:02.190  1441  1989 I StorageSessionController: On volume mount VolumeInfo{emulated;10}:
+08-03 21:31:02.190  1441  1989 I StorageSessionController:     type=EMULATED diskId=null partGuid= mountFlags=PRIMARY|VISIBLE_FOR_WRITE 
+08-03 21:31:02.190  1441  1989 I StorageSessionController:     mountUserId=10 state=CHECKING 
+08-03 21:31:02.190  1441  1989 I StorageSessionController:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:31:02.190  1441  1989 I StorageSessionController:     path=/storage/emulated internalPath=/data/media 
+08-03 21:31:02.191  1441  1989 W UserManager: The System (uid 1000) is fetching a copy of UserProperties on behalf of callingUid 0. Possibly it should carefully first clearCallingIdentity or perhaps use UserManagerInternal.getUserProperties() instead?
+08-03 21:31:02.191  1441  1989 W UserManager: java.lang.Throwable
+08-03 21:31:02.191  1441  1989 W UserManager: 	at android.os.UserManager.getUserProperties(UserManager.java:4189)
+08-03 21:31:02.191  1441  1989 W UserManager: 	at android.os.UserManager.isMediaSharedWithParent(UserManager.java:6418)
+08-03 21:31:02.191  1441  1989 W UserManager: 	at com.android.server.storage.StorageSessionController.getConnectionUserIdForVolume(StorageSessionController.java:87)
+08-03 21:31:02.191  1441  1989 W UserManager: 	at com.android.server.storage.StorageSessionController.onVolumeMount(StorageSessionController.java:121)
+08-03 21:31:02.191  1441  1989 W UserManager: 	at com.android.server.StorageManagerService$8.onVolumeChecking(StorageManagerService.java:2419)
+08-03 21:31:02.191  1441  1989 W UserManager: 	at android.os.IVoldMountCallback$Stub.onTransact(IVoldMountCallback.java:94)
+08-03 21:31:02.191  1441  1989 W UserManager: 	at android.os.Binder.execTransactInternal(Binder.java:1471)
+08-03 21:31:02.191  1441  1989 W UserManager: 	at android.os.Binder.execTransact(Binder.java:1411)
+08-03 21:31:02.191  1441  1989 W UserManager: 	at android.os.BinderProxy.transactNative(Native Method)
+08-03 21:31:02.191  1441  1989 W UserManager: 	at android.os.BinderProxy.transact(BinderProxy.java:602)
+08-03 21:31:02.191  1441  1989 W UserManager: 	at android.os.IVold$Stub$Proxy.mount(IVold.java:1761)
+08-03 21:31:02.191  1441  1989 W UserManager: 	at com.android.server.StorageManagerService.mount(StorageManagerService.java:2408)
+08-03 21:31:02.191  1441  1989 W UserManager: 	at com.android.server.StorageManagerService.-$$Nest$mmount(StorageManagerService.java:0)
+08-03 21:31:02.191  1441  1989 W UserManager: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:778)
+08-03 21:31:02.191  1441  1989 W UserManager: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:31:02.191  1441  1989 W UserManager: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:31:02.191  1441  1989 W UserManager: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:31:02.191  1441  1989 W UserManager: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:31:02.191  1441  1989 W UserManager: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:31:02.191  1441  1989 I StorageSessionController: Creating connection for user: 10
+08-03 21:31:02.192  1441  1989 I StorageSessionController: Creating and starting session with id: emulated;10
+08-03 21:31:02.193  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+08-03 21:31:02.194  1441  1989 E StorageManagerService: Failed to mount volume VolumeInfo{emulated;10}:
+08-03 21:31:02.194  1441  1989 E StorageManagerService:     type=EMULATED diskId=null partGuid= mountFlags=PRIMARY|VISIBLE_FOR_WRITE 
+08-03 21:31:02.194  1441  1989 E StorageManagerService:     mountUserId=10 state=CHECKING 
+08-03 21:31:02.194  1441  1989 E StorageManagerService:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:31:02.194  1441  1989 E StorageManagerService:     path=/storage/emulated internalPath=/data/media 
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 
+08-03 21:31:02.194  1441  1989 E StorageManagerService: com.android.server.storage.StorageSessionController$ExternalStorageServiceException: Failed to start session: [SessionId: emulated;10. UpperPath: /storage/emulated. LowerPath: /data/media]
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.startSession(StorageUserConnection.java:414)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection.startSession(StorageUserConnection.java:111)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageSessionController.onVolumeMount(StorageSessionController.java:133)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService$8.onVolumeChecking(StorageManagerService.java:2419)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at android.os.IVoldMountCallback$Stub.onTransact(IVoldMountCallback.java:94)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at android.os.Binder.execTransactInternal(Binder.java:1471)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at android.os.Binder.execTransact(Binder.java:1411)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at android.os.BinderProxy.transactNative(Native Method)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at android.os.BinderProxy.transact(BinderProxy.java:602)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at android.os.IVold$Stub$Proxy.mount(IVold.java:1761)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.mount(StorageManagerService.java:2408)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.-$$Nest$mmount(StorageManagerService.java:0)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:778)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: Caused by: com.android.server.storage.StorageSessionController$ExternalStorageServiceException: Not ready to bind to the ExternalStorageService for user 10
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.connectIfNeeded(StorageUserConnection.java:489)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.waitForAsync(StorageUserConnection.java:375)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.waitForAsyncVoid(StorageUserConnection.java:365)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.waitForAsyncVoid(StorageUserConnection.java:356)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.startSession(StorageUserConnection.java:410)
+08-03 21:31:02.194  1441  1989 E StorageManagerService: 	... 17 more
+08-03 21:31:02.194  1441  1989 I StorageManagerService: Scheduling reset in 10s
+08-03 21:31:02.194   523   603 I vold    : fuse_unmounter scope_guard running
+08-03 21:31:02.194   523   603 I vold    : Unmounting fuse paths
+08-03 21:31:02.194  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+08-03 21:31:02.194   523   603 I vold    : Unmounting fuse path /mnt/user/10/emulated
+08-03 21:31:02.194  1441  2019 D InetDiagMessage: Destroyed live tcp sockets for uids={1010076} in 4ms
+08-03 21:31:02.203   523   603 I vold    : Unmounting fuse path /mnt/pass_through/10/emulated
+08-03 21:31:02.207   523   603 I vold    : sdcardfs_unmounter scope_guard running
+08-03 21:31:02.209  1441  1989 E StorageManagerService: android.os.ServiceSpecificException:  (code -5)
+08-03 21:31:02.209  1441  1989 E StorageManagerService: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3384)
+08-03 21:31:02.209  1441  1989 E StorageManagerService: 	at android.os.Parcel.createException(Parcel.java:3354)
+08-03 21:31:02.209  1441  1989 E StorageManagerService: 	at android.os.Parcel.readException(Parcel.java:3337)
+08-03 21:31:02.209  1441  1989 E StorageManagerService: 	at android.os.Parcel.readException(Parcel.java:3279)
+08-03 21:31:02.209  1441  1989 E StorageManagerService: 	at android.os.IVold$Stub$Proxy.mount(IVold.java:1762)
+08-03 21:31:02.209  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.mount(StorageManagerService.java:2408)
+08-03 21:31:02.209  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.-$$Nest$mmount(StorageManagerService.java:0)
+08-03 21:31:02.209  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:778)
+08-03 21:31:02.209  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:31:02.209  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:31:02.209  1441  1989 E StorageManagerService: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:31:02.209  1441  1989 E StorageManagerService: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:31:02.209  1441  1989 E StorageManagerService: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:31:02.209   983  1076 I WifiHAL : Creating message to get link statistics; iface = 47
+08-03 21:31:02.210  1441  1989 I StorageSessionController: Notifying volume state changed for session with id: emulated;10
+08-03 21:31:02.210  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:31:02.211  1441  1989 I StorageSessionController: Notifying volume state changed for session with id: emulated;10
+08-03 21:31:02.211  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:31:02.211  1441  1989 I StorageSessionController: Notifying volume state changed for session with id: emulated;10
+08-03 21:31:02.212  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:31:02.214  1441  1989 D StorageManagerService: Volume emulated;10 broadcasting checking to UserHandle{10}
+08-03 21:31:02.214  1441  1441 W StorageManagerService: No primary storage defined yet; hacking together a stub
+08-03 21:31:02.215  1441  1989 D StorageManagerService: Volume emulated;10 broadcasting unmountable to UserHandle{10}
+08-03 21:31:02.216  1441  2586 W StorageManagerService: No primary storage defined yet; hacking together a stub
+08-03 21:31:02.216  1441  1735 D ActivityManager: sync unfroze 14485 com.android.externalstorage for 3
+08-03 21:31:02.218 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:31:02.221 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:31:02.225  1441  2586 W StorageManagerService: Reporting emulated;10 unmounted due to system locked
+08-03 21:31:02.226 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:31:02.227 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:31:02.231 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:31:02.272  1257  1257 I adbd    : adbd service requested 'shell,v2,TERM=xterm-ghostty,raw:settings get secure accessibility_enabled'
+08-03 21:31:02.316   983  1076 D WifiHAL : Start debug command: mType GET_FEATURE
+08-03 21:31:02.316   983  1076 I WifiHAL : CreateRequest mType = GET_FEATURE
+08-03 21:31:02.316   983  1076 D WifiHAL : In DebugCommand::handleResponse, mType:GET_FEATURE
+08-03 21:31:02.316   983  1076 D WifiHAL : len = 4, expected len = 4
+08-03 21:31:02.329  1832  1834 I pixel-thermal: usb_pwr_therm2:27.268 raw data: usb_pwr_therm2:27268 
+08-03 21:31:02.330  1832  1834 I pixel-thermal: quiet_therm:26.987 raw data: quiet_therm:26987 
+08-03 21:31:02.330  1832  1834 I pixel-thermal: VIRTUAL-USB-THROTTLING:0 raw data: USB2-MINUS-QI:-1276 USB2-MINUS-USB:0 VIRTUAL-USB-THROTTLING:0 qi_therm:28544 usb_pwr_therm:27268 usb_pwr_therm2:27268 
+08-03 21:31:02.330  1832  1834 I pixel-thermal: VIRTUAL-USB-UI:0 raw data: USB2-MINUS-QI:-1276 USB2-MINUS-USB:0 VIRTUAL-USB-UI:0 usb_pwr_therm2:27268 
+08-03 21:31:02.331  1832  1834 I pixel-thermal: Power rails total power: 614.88 mW for 60054 ms
+08-03 21:31:02.331  1832  1834 I pixel-thermal: Power rails [S2S_VDD_G3D: 4.06 mW] [S10S_VDD2L: 10.53 mW] [S5S_VDDQ_MEM: 6.80 mW] [S10M_VDD_TPU: 12.31 mW] [L2S_VDD_AOC_RET: 2.70 mW] [S1M_VDD_MIF: 32.28 mW] 
+08-03 21:31:02.331  1832  1834 I pixel-thermal: Power rails [S5M_VDD_INT: 25.05 mW] [VSYS_PWR_RFFE: 46.67 mW] [S4M_VDD_CPUCL0: 49.51 mW] [S2M_VDD_CPUCL2: 32.94 mW] [S3M_VDD_CPUCL1: 29.52 mW] [S4S_VDD2H_MEM: 23.26 mW] 
+08-03 21:31:02.331  1832  1834 I pixel-thermal: Power rails [S9S_VDD_AOC: 8.92 mW] [VSYS_PWR_DISPLAY: 173.48 mW] [VSYS_PWR_WLAN_BT: 59.30 mW] [VSYS_PWR_MODEM: 97.55 mW] 
+08-03 21:31:02.331  1832  1834 I pixel-thermal: CDEV log dc_icl state:0 tpu_cooling state:0 usbc-port state:0 wlc_fcc state:0 thermal-cpufreq-1 state:0 fcc state:0 thermal-gpufreq-0 state:0 thermal-cpufreq-2 state:0 thermal-cpufreq-0 state:0 
+08-03 21:31:02.378  1257  1257 I adbd    : adbd service requested 'shell,v2,TERM=xterm-ghostty:export ANDROID_LOG_TAGS=''; exec logcat '-d''
+08-03 21:31:02.585  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3346}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:02.605  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:02.962  1441  1961 D ActivityManager: freezing 7837 com.google.android.partnersetup
+08-03 21:31:02.973  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+08-03 21:31:02.975  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+08-03 21:31:02.975  1441  2019 D InetDiagMessage: Destroyed live tcp sockets for uids={1010112} in 7ms
+08-03 21:31:03.214  1441  1961 D ActivityManager: freezing 13610 com.android.vending
+08-03 21:31:03.229  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+08-03 21:31:03.232  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+08-03 21:31:03.232  1441  2019 D InetDiagMessage: Destroyed live tcp sockets for uids={1010161} in 7ms
+08-03 21:31:03.585  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3345}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:03.604  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:04.587  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3344}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:04.600  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:05.323   983  1076 I WifiHAL : Creating message to get link statistics; iface = 47
+08-03 21:31:05.433   983  1076 E libbinder.IPCThreadState: binder thread pool (1 threads) starved for 110 ms
+08-03 21:31:05.483   983  1076 D WifiHAL : Start debug command: mType GET_FEATURE
+08-03 21:31:05.483   983  1076 I WifiHAL : CreateRequest mType = GET_FEATURE
+08-03 21:31:05.483   983  1076 D WifiHAL : In DebugCommand::handleResponse, mType:GET_FEATURE
+08-03 21:31:05.483   983  1076 D WifiHAL : len = 4, expected len = 4
+08-03 21:31:05.589  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3343}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:05.600  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:06.590  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3342}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:06.603  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:07.359  1257  1257 I adbd    : adbd service requested 'shell,v2,TERM=xterm-ghostty,raw:settings get secure accessibility_enabled'
+08-03 21:31:07.590  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3341}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:07.609  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:08.494   983  1076 I WifiHAL : Creating message to get link statistics; iface = 47
+08-03 21:31:08.591  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3340}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:08.607  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:08.612   983  1076 D WifiHAL : Start debug command: mType GET_FEATURE
+08-03 21:31:08.612   983  1076 I WifiHAL : CreateRequest mType = GET_FEATURE
+08-03 21:31:08.612   983  1076 D WifiHAL : In DebugCommand::handleResponse, mType:GET_FEATURE
+08-03 21:31:08.612   983  1076 D WifiHAL : len = 4, expected len = 4
+08-03 21:31:09.592  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3339}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:09.610  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:10.043   926  1845 I Lyric   : proxy_camera_provider.cc:237: Attempting to rebind to ICameraProvider
+08-03 21:31:10.047  2284 10072 D PersistentBackgroundCameraServices: Binding PCS service com.google.android.apps.camera.services.connectivity.service.ProxyCameraProviderService...
+08-03 21:31:10.052  1441  1682 W ActivityManager: Unable to start service Intent { xflg=0x4 cmp=com.google.android.apps.camera.services/.connectivity.service.ProxyCameraProviderService } U=0: not found
+08-03 21:31:10.054  2284 10072 D PersistentBackgroundCameraServices: Unbinding failed PCS connection...
+08-03 21:31:10.055  1441  1682 W ActivityManager: Unbind failed: could not find connection for android.os.BinderProxy@d543d9f
+08-03 21:31:10.591  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3338}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:10.603  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:11.592  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3337}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:11.603  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:11.619   983  1076 I WifiHAL : Creating message to get link statistics; iface = 47
+08-03 21:31:11.700   983  1076 D WifiHAL : Start debug command: mType GET_FEATURE
+08-03 21:31:11.700   983  1076 I WifiHAL : CreateRequest mType = GET_FEATURE
+08-03 21:31:11.700   983  1076 D WifiHAL : In DebugCommand::handleResponse, mType:GET_FEATURE
+08-03 21:31:11.700   983  1076 D WifiHAL : len = 4, expected len = 4
+08-03 21:31:12.205  1441  1989 D StorageManagerService: Thinking about reset, mBootCompleted=true, mDaemonConnected=true
+08-03 21:31:12.206  1441  1989 I Watchdog: Pausing of HandlerChecker: monitor thread for reason: #onReset might be slow. Pause end time: 11093905
+08-03 21:31:12.206  1441  1989 I StorageSessionController: Started resetting external storage service...
+08-03 21:31:12.206  1441  1989 I StorageSessionController: Unmounting emulated;10
+08-03 21:31:12.208   523   603 W vold    : emulated;10 unmount requires state mounted
+08-03 21:31:12.211  1441  1989 E StorageSessionController: Failed to unmount volume: emulated;10
+08-03 21:31:12.211  1441  1989 E StorageSessionController: android.os.ServiceSpecificException:  (code -16)
+08-03 21:31:12.211  1441  1989 E StorageSessionController: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3384)
+08-03 21:31:12.211  1441  1989 E StorageSessionController: 	at android.os.Parcel.createException(Parcel.java:3354)
+08-03 21:31:12.211  1441  1989 E StorageSessionController: 	at android.os.Parcel.readException(Parcel.java:3337)
+08-03 21:31:12.211  1441  1989 E StorageSessionController: 	at android.os.Parcel.readException(Parcel.java:3279)
+08-03 21:31:12.211  1441  1989 E StorageSessionController: 	at android.os.IVold$Stub$Proxy.unmount(IVold.java:1778)
+08-03 21:31:12.211  1441  1989 E StorageSessionController: 	at com.android.server.storage.StorageSessionController.onReset(StorageSessionController.java:330)
+08-03 21:31:12.211  1441  1989 E StorageSessionController: 	at com.android.server.StorageManagerService.resetIfBootedAndConnected(StorageManagerService.java:1110)
+08-03 21:31:12.211  1441  1989 E StorageSessionController: 	at com.android.server.StorageManagerService.-$$Nest$mresetIfBootedAndConnected(StorageManagerService.java:0)
+08-03 21:31:12.211  1441  1989 E StorageSessionController: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:817)
+08-03 21:31:12.211  1441  1989 E StorageSessionController: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:31:12.211  1441  1989 E StorageSessionController: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:31:12.211  1441  1989 E StorageSessionController: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:31:12.211  1441  1989 E StorageSessionController: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:31:12.211  1441  1989 E StorageSessionController: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:31:12.211  1441  1989 I StorageSessionController: Exiting emulated;10
+08-03 21:31:12.211  1441  1989 I StorageUserConnection: Waiting for session end [SessionId: emulated;10. UpperPath: /storage/emulated. LowerPath: /data/media] ...
+08-03 21:31:12.211  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:31:12.211  1441  1989 I StorageSessionController: Exited emulated;10
+08-03 21:31:12.211  1441  1989 I StorageUserConnection: Closing connection for user 10
+08-03 21:31:12.211  1441  1989 I StorageSessionController: Finished resetting external storage service
+08-03 21:31:12.212  1441  1989 I StorageManagerService: Resetting vold...
+08-03 21:31:12.214  1441  1989 I StorageManagerService: Reset vold
+08-03 21:31:12.214   523   603 I vold    : onUserAdded: 0
+08-03 21:31:12.215   523   603 I vold    : onUserAdded: 10
+08-03 21:31:12.215   523   603 I vold    : onUserStarted: 10
+08-03 21:31:12.218  1441  5439 W UserManager: The System (uid 1000) is fetching a copy of UserProperties on behalf of callingUid 0. Possibly it should carefully first clearCallingIdentity or perhaps use UserManagerInternal.getUserProperties() instead?
+08-03 21:31:12.218  1441  5439 W UserManager: java.lang.Throwable
+08-03 21:31:12.218  1441  5439 W UserManager: 	at android.os.UserManager.getUserProperties(UserManager.java:4189)
+08-03 21:31:12.218  1441  5439 W UserManager: 	at android.os.UserManager.isMediaSharedWithParent(UserManager.java:6418)
+08-03 21:31:12.218  1441  5439 W UserManager: 	at com.android.server.StorageManagerService.onVolumeCreatedLocked(StorageManagerService.java:1634)
+08-03 21:31:12.218  1441  5439 W UserManager: 	at com.android.server.StorageManagerService.-$$Nest$monVolumeCreatedLocked(StorageManagerService.java:0)
+08-03 21:31:12.218  1441  5439 W UserManager: 	at com.android.server.StorageManagerService$3.onVolumeCreated(StorageManagerService.java:1515)
+08-03 21:31:12.218  1441  5439 W UserManager: 	at android.os.IVoldListener$Stub.onTransact(IVoldListener.java:200)
+08-03 21:31:12.218  1441  5439 W UserManager: 	at android.os.Binder.execTransactInternal(Binder.java:1471)
+08-03 21:31:12.218  1441  5439 W UserManager: 	at android.os.Binder.execTransact(Binder.java:1411)
+08-03 21:31:12.221  1441  5439 V StorageManagerService: Found primary storage at VolumeInfo{emulated;10}:
+08-03 21:31:12.221  1441  5439 V StorageManagerService:     type=EMULATED diskId=null partGuid= mountFlags=0 mountUserId=10 
+08-03 21:31:12.221  1441  5439 V StorageManagerService:     state=UNMOUNTED 
+08-03 21:31:12.221  1441  5439 V StorageManagerService:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:31:12.221  1441  5439 V StorageManagerService:     path=null internalPath=null 
+08-03 21:31:12.223  1441  1989 I StorageManagerService: Mounting volume VolumeInfo{emulated;10}:
+08-03 21:31:12.223  1441  1989 I StorageManagerService:     type=EMULATED diskId=null partGuid= mountFlags=PRIMARY|VISIBLE_FOR_WRITE 
+08-03 21:31:12.223  1441  1989 I StorageManagerService:     mountUserId=10 state=UNMOUNTED 
+08-03 21:31:12.223  1441  1989 I StorageManagerService:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:31:12.223  1441  1989 I StorageManagerService:     path=null internalPath=null 
+08-03 21:31:12.223  1441  1989 I Watchdog: Pausing of HandlerChecker: monitor thread for reason: #mount might be slow. Pause end time: 11093921
+08-03 21:31:12.224   523   603 I vold    : Mounting emulated fuse volume
+08-03 21:31:12.228   523   603 I vold    : Creating mount directory /mnt/user/10
+08-03 21:31:12.264   523   603 I vold    : Bind mounting /data/media to /mnt/pass_through/10/emulated
+08-03 21:31:12.269  1441  1989 I StorageSessionController: On volume mount VolumeInfo{emulated;10}:
+08-03 21:31:12.269  1441  1989 I StorageSessionController:     type=EMULATED diskId=null partGuid= mountFlags=PRIMARY|VISIBLE_FOR_WRITE 
+08-03 21:31:12.269  1441  1989 I StorageSessionController:     mountUserId=10 state=CHECKING 
+08-03 21:31:12.269  1441  1989 I StorageSessionController:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:31:12.269  1441  1989 I StorageSessionController:     path=/storage/emulated internalPath=/data/media 
+08-03 21:31:12.270  1441  1989 W UserManager: The System (uid 1000) is fetching a copy of UserProperties on behalf of callingUid 0. Possibly it should carefully first clearCallingIdentity or perhaps use UserManagerInternal.getUserProperties() instead?
+08-03 21:31:12.270  1441  1989 W UserManager: java.lang.Throwable
+08-03 21:31:12.270  1441  1989 W UserManager: 	at android.os.UserManager.getUserProperties(UserManager.java:4189)
+08-03 21:31:12.270  1441  1989 W UserManager: 	at android.os.UserManager.isMediaSharedWithParent(UserManager.java:6418)
+08-03 21:31:12.270  1441  1989 W UserManager: 	at com.android.server.storage.StorageSessionController.getConnectionUserIdForVolume(StorageSessionController.java:87)
+08-03 21:31:12.270  1441  1989 W UserManager: 	at com.android.server.storage.StorageSessionController.onVolumeMount(StorageSessionController.java:121)
+08-03 21:31:12.270  1441  1989 W UserManager: 	at com.android.server.StorageManagerService$8.onVolumeChecking(StorageManagerService.java:2419)
+08-03 21:31:12.270  1441  1989 W UserManager: 	at android.os.IVoldMountCallback$Stub.onTransact(IVoldMountCallback.java:94)
+08-03 21:31:12.270  1441  1989 W UserManager: 	at android.os.Binder.execTransactInternal(Binder.java:1471)
+08-03 21:31:12.270  1441  1989 W UserManager: 	at android.os.Binder.execTransact(Binder.java:1411)
+08-03 21:31:12.270  1441  1989 W UserManager: 	at android.os.BinderProxy.transactNative(Native Method)
+08-03 21:31:12.270  1441  1989 W UserManager: 	at android.os.BinderProxy.transact(BinderProxy.java:602)
+08-03 21:31:12.270  1441  1989 W UserManager: 	at android.os.IVold$Stub$Proxy.mount(IVold.java:1761)
+08-03 21:31:12.270  1441  1989 W UserManager: 	at com.android.server.StorageManagerService.mount(StorageManagerService.java:2408)
+08-03 21:31:12.270  1441  1989 W UserManager: 	at com.android.server.StorageManagerService.-$$Nest$mmount(StorageManagerService.java:0)
+08-03 21:31:12.270  1441  1989 W UserManager: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:778)
+08-03 21:31:12.270  1441  1989 W UserManager: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:31:12.270  1441  1989 W UserManager: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:31:12.270  1441  1989 W UserManager: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:31:12.270  1441  1989 W UserManager: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:31:12.270  1441  1989 W UserManager: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:31:12.270  1441  1989 I StorageSessionController: Creating connection for user: 10
+08-03 21:31:12.271  1441  1989 I StorageSessionController: Creating and starting session with id: emulated;10
+08-03 21:31:12.273  1441  1989 E StorageManagerService: Failed to mount volume VolumeInfo{emulated;10}:
+08-03 21:31:12.273  1441  1989 E StorageManagerService:     type=EMULATED diskId=null partGuid= mountFlags=PRIMARY|VISIBLE_FOR_WRITE 
+08-03 21:31:12.273  1441  1989 E StorageManagerService:     mountUserId=10 state=CHECKING 
+08-03 21:31:12.273  1441  1989 E StorageManagerService:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:31:12.273  1441  1989 E StorageManagerService:     path=/storage/emulated internalPath=/data/media 
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 
+08-03 21:31:12.273  1441  1989 E StorageManagerService: com.android.server.storage.StorageSessionController$ExternalStorageServiceException: Failed to start session: [SessionId: emulated;10. UpperPath: /storage/emulated. LowerPath: /data/media]
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.startSession(StorageUserConnection.java:414)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection.startSession(StorageUserConnection.java:111)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageSessionController.onVolumeMount(StorageSessionController.java:133)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService$8.onVolumeChecking(StorageManagerService.java:2419)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at android.os.IVoldMountCallback$Stub.onTransact(IVoldMountCallback.java:94)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at android.os.Binder.execTransactInternal(Binder.java:1471)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at android.os.Binder.execTransact(Binder.java:1411)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at android.os.BinderProxy.transactNative(Native Method)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at android.os.BinderProxy.transact(BinderProxy.java:602)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at android.os.IVold$Stub$Proxy.mount(IVold.java:1761)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.mount(StorageManagerService.java:2408)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.-$$Nest$mmount(StorageManagerService.java:0)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:778)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: Caused by: com.android.server.storage.StorageSessionController$ExternalStorageServiceException: Not ready to bind to the ExternalStorageService for user 10
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.connectIfNeeded(StorageUserConnection.java:489)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.waitForAsync(StorageUserConnection.java:375)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.waitForAsyncVoid(StorageUserConnection.java:365)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.waitForAsyncVoid(StorageUserConnection.java:356)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.startSession(StorageUserConnection.java:410)
+08-03 21:31:12.273  1441  1989 E StorageManagerService: 	... 17 more
+08-03 21:31:12.273  1441  1989 I StorageManagerService: Scheduling reset in 10s
+08-03 21:31:12.273   523   603 I vold    : fuse_unmounter scope_guard running
+08-03 21:31:12.273  1441  1961 D ActivityManager: freezing 14485 com.android.externalstorage
+08-03 21:31:12.273   523   603 I vold    : Unmounting fuse paths
+08-03 21:31:12.273   523   603 I vold    : Unmounting fuse path /mnt/user/10/emulated
+08-03 21:31:12.279   523   603 I vold    : Unmounting fuse path /mnt/pass_through/10/emulated
+08-03 21:31:12.280  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+08-03 21:31:12.281  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+08-03 21:31:12.281  1441  2019 D InetDiagMessage: Destroyed live tcp sockets for uids={1010076} in 4ms
+08-03 21:31:12.283   523   603 I vold    : sdcardfs_unmounter scope_guard running
+08-03 21:31:12.284  1441  1989 E StorageManagerService: android.os.ServiceSpecificException:  (code -5)
+08-03 21:31:12.284  1441  1989 E StorageManagerService: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3384)
+08-03 21:31:12.284  1441  1989 E StorageManagerService: 	at android.os.Parcel.createException(Parcel.java:3354)
+08-03 21:31:12.284  1441  1989 E StorageManagerService: 	at android.os.Parcel.readException(Parcel.java:3337)
+08-03 21:31:12.284  1441  1989 E StorageManagerService: 	at android.os.Parcel.readException(Parcel.java:3279)
+08-03 21:31:12.284  1441  1989 E StorageManagerService: 	at android.os.IVold$Stub$Proxy.mount(IVold.java:1762)
+08-03 21:31:12.284  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.mount(StorageManagerService.java:2408)
+08-03 21:31:12.284  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.-$$Nest$mmount(StorageManagerService.java:0)
+08-03 21:31:12.284  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:778)
+08-03 21:31:12.284  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:31:12.284  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:31:12.284  1441  1989 E StorageManagerService: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:31:12.284  1441  1989 E StorageManagerService: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:31:12.284  1441  1989 E StorageManagerService: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:31:12.286  1441  1989 I StorageSessionController: Notifying volume state changed for session with id: emulated;10
+08-03 21:31:12.286  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:31:12.287  1441  1989 I StorageSessionController: Notifying volume state changed for session with id: emulated;10
+08-03 21:31:12.287  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:31:12.288  1441  1441 W StorageManagerService: No primary storage defined yet; hacking together a stub
+08-03 21:31:12.289  1441  1989 I StorageSessionController: Notifying volume state changed for session with id: emulated;10
+08-03 21:31:12.289  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:31:12.290  1441  1682 W StorageManagerService: No primary storage defined yet; hacking together a stub
+08-03 21:31:12.293  1441  1735 D ActivityManager: sync unfroze 14485 com.android.externalstorage for 3
+08-03 21:31:12.294  1441  1989 D StorageManagerService: Volume emulated;10 broadcasting checking to UserHandle{10}
+08-03 21:31:12.296 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:31:12.301 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:31:12.302  1441  1989 D StorageManagerService: Volume emulated;10 broadcasting unmountable to UserHandle{10}
+08-03 21:31:12.302  1441  1682 W StorageManagerService: Reporting emulated;10 unmounted due to system locked
+08-03 21:31:12.303 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:31:12.304 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:31:12.307 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:31:12.445  1257  1257 I adbd    : adbd service requested 'shell,v2,TERM=xterm-ghostty,raw:settings get secure accessibility_enabled'
+08-03 21:31:12.592  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3336}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:12.605  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:13.594  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3335}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:13.608  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:14.147  1257  1257 I adbd    : adbd service requested 'shell,v2,raw:getprop ro.kernel.qemu'
+08-03 21:31:14.494  1257  1257 I adbd    : adbd service requested 'shell,v2,raw:getprop ro.kernel.qemu'
+08-03 21:31:14.597  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3334}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:14.613  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:14.709   983  1076 I WifiHAL : Creating message to get link statistics; iface = 47
+08-03 21:31:14.799  1257  1257 I adbd    : adbd service requested 'shell,v2,raw:getprop ro.kernel.qemu'
+08-03 21:31:14.834   983  1076 D WifiHAL : Start debug command: mType GET_FEATURE
+08-03 21:31:14.834   983  1076 I WifiHAL : CreateRequest mType = GET_FEATURE
+08-03 21:31:14.834   983  1076 D WifiHAL : In DebugCommand::handleResponse, mType:GET_FEATURE
+08-03 21:31:14.834   983  1076 D WifiHAL : len = 4, expected len = 4
+08-03 21:31:15.598  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3333}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:15.611  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:16.599  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3332}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:16.614  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:17.529  1257  1257 I adbd    : adbd service requested 'shell,v2,TERM=xterm-ghostty,raw:settings get secure accessibility_enabled'
+08-03 21:31:17.599  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3331}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:17.620  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:17.843   983  1076 I WifiHAL : Creating message to get link statistics; iface = 47
+08-03 21:31:17.977   983  1076 D WifiHAL : Start debug command: mType GET_FEATURE
+08-03 21:31:17.977   983  1076 I WifiHAL : CreateRequest mType = GET_FEATURE
+08-03 21:31:17.977   983  1076 D WifiHAL : In DebugCommand::handleResponse, mType:GET_FEATURE
+08-03 21:31:17.977   983  1076 D WifiHAL : len = 4, expected len = 4
+08-03 21:31:18.600  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3330}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:18.617  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:19.602  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3329}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:19.620  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:20.602  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3328}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:20.622  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:20.992   983  1076 I WifiHAL : Creating message to get link statistics; iface = 47
+08-03 21:31:21.104   983  1076 D WifiHAL : Start debug command: mType GET_FEATURE
+08-03 21:31:21.104   983  1076 I WifiHAL : CreateRequest mType = GET_FEATURE
+08-03 21:31:21.104   983  1076 D WifiHAL : In DebugCommand::handleResponse, mType:GET_FEATURE
+08-03 21:31:21.104   983  1076 D WifiHAL : len = 4, expected len = 4
+08-03 21:31:21.604  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3327}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:21.625  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:22.283  1441  1989 D StorageManagerService: Thinking about reset, mBootCompleted=true, mDaemonConnected=true
+08-03 21:31:22.284  1441  1989 I Watchdog: Pausing of HandlerChecker: monitor thread for reason: #onReset might be slow. Pause end time: 11103983
+08-03 21:31:22.284  1441  1989 I StorageSessionController: Started resetting external storage service...
+08-03 21:31:22.284  1441  1989 I StorageSessionController: Unmounting emulated;10
+08-03 21:31:22.286   523   603 W vold    : emulated;10 unmount requires state mounted
+08-03 21:31:22.289  1441  1989 E StorageSessionController: Failed to unmount volume: emulated;10
+08-03 21:31:22.289  1441  1989 E StorageSessionController: android.os.ServiceSpecificException:  (code -16)
+08-03 21:31:22.289  1441  1989 E StorageSessionController: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3384)
+08-03 21:31:22.289  1441  1989 E StorageSessionController: 	at android.os.Parcel.createException(Parcel.java:3354)
+08-03 21:31:22.289  1441  1989 E StorageSessionController: 	at android.os.Parcel.readException(Parcel.java:3337)
+08-03 21:31:22.289  1441  1989 E StorageSessionController: 	at android.os.Parcel.readException(Parcel.java:3279)
+08-03 21:31:22.289  1441  1989 E StorageSessionController: 	at android.os.IVold$Stub$Proxy.unmount(IVold.java:1778)
+08-03 21:31:22.289  1441  1989 E StorageSessionController: 	at com.android.server.storage.StorageSessionController.onReset(StorageSessionController.java:330)
+08-03 21:31:22.289  1441  1989 E StorageSessionController: 	at com.android.server.StorageManagerService.resetIfBootedAndConnected(StorageManagerService.java:1110)
+08-03 21:31:22.289  1441  1989 E StorageSessionController: 	at com.android.server.StorageManagerService.-$$Nest$mresetIfBootedAndConnected(StorageManagerService.java:0)
+08-03 21:31:22.289  1441  1989 E StorageSessionController: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:817)
+08-03 21:31:22.289  1441  1989 E StorageSessionController: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:31:22.289  1441  1989 E StorageSessionController: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:31:22.289  1441  1989 E StorageSessionController: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:31:22.289  1441  1989 E StorageSessionController: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:31:22.289  1441  1989 E StorageSessionController: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:31:22.289  1441  1989 I StorageSessionController: Exiting emulated;10
+08-03 21:31:22.289  1441  1989 I StorageUserConnection: Waiting for session end [SessionId: emulated;10. UpperPath: /storage/emulated. LowerPath: /data/media] ...
+08-03 21:31:22.290  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:31:22.290  1441  1989 I StorageSessionController: Exited emulated;10
+08-03 21:31:22.290  1441  1989 I StorageUserConnection: Closing connection for user 10
+08-03 21:31:22.290  1441  1989 I StorageSessionController: Finished resetting external storage service
+08-03 21:31:22.291  1441  1989 I StorageManagerService: Resetting vold...
+08-03 21:31:22.293  1441  1989 I StorageManagerService: Reset vold
+08-03 21:31:22.294   523   603 I vold    : onUserAdded: 0
+08-03 21:31:22.296   523   603 I vold    : onUserAdded: 10
+08-03 21:31:22.297   523   603 I vold    : onUserStarted: 10
+08-03 21:31:22.300  1441  1682 W UserManager: The System (uid 1000) is fetching a copy of UserProperties on behalf of callingUid 0. Possibly it should carefully first clearCallingIdentity or perhaps use UserManagerInternal.getUserProperties() instead?
+08-03 21:31:22.300  1441  1682 W UserManager: java.lang.Throwable
+08-03 21:31:22.300  1441  1682 W UserManager: 	at android.os.UserManager.getUserProperties(UserManager.java:4189)
+08-03 21:31:22.300  1441  1682 W UserManager: 	at android.os.UserManager.isMediaSharedWithParent(UserManager.java:6418)
+08-03 21:31:22.300  1441  1682 W UserManager: 	at com.android.server.StorageManagerService.onVolumeCreatedLocked(StorageManagerService.java:1634)
+08-03 21:31:22.300  1441  1682 W UserManager: 	at com.android.server.StorageManagerService.-$$Nest$monVolumeCreatedLocked(StorageManagerService.java:0)
+08-03 21:31:22.300  1441  1682 W UserManager: 	at com.android.server.StorageManagerService$3.onVolumeCreated(StorageManagerService.java:1515)
+08-03 21:31:22.300  1441  1682 W UserManager: 	at android.os.IVoldListener$Stub.onTransact(IVoldListener.java:200)
+08-03 21:31:22.300  1441  1682 W UserManager: 	at android.os.Binder.execTransactInternal(Binder.java:1471)
+08-03 21:31:22.300  1441  1682 W UserManager: 	at android.os.Binder.execTransact(Binder.java:1411)
+08-03 21:31:22.304  1441  1682 V StorageManagerService: Found primary storage at VolumeInfo{emulated;10}:
+08-03 21:31:22.304  1441  1682 V StorageManagerService:     type=EMULATED diskId=null partGuid= mountFlags=0 mountUserId=10 
+08-03 21:31:22.304  1441  1682 V StorageManagerService:     state=UNMOUNTED 
+08-03 21:31:22.304  1441  1682 V StorageManagerService:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:31:22.304  1441  1682 V StorageManagerService:     path=null internalPath=null 
+08-03 21:31:22.305  1441  1989 I StorageManagerService: Mounting volume VolumeInfo{emulated;10}:
+08-03 21:31:22.305  1441  1989 I StorageManagerService:     type=EMULATED diskId=null partGuid= mountFlags=PRIMARY|VISIBLE_FOR_WRITE 
+08-03 21:31:22.305  1441  1989 I StorageManagerService:     mountUserId=10 state=UNMOUNTED 
+08-03 21:31:22.305  1441  1989 I StorageManagerService:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:31:22.305  1441  1989 I StorageManagerService:     path=null internalPath=null 
+08-03 21:31:22.306  1441  1989 I Watchdog: Pausing of HandlerChecker: monitor thread for reason: #mount might be slow. Pause end time: 11104004
+08-03 21:31:22.307   523   603 I vold    : Mounting emulated fuse volume
+08-03 21:31:22.311   523   603 I vold    : Creating mount directory /mnt/user/10
+08-03 21:31:22.329  1441  1961 D ActivityManager: freezing 14485 com.android.externalstorage
+08-03 21:31:22.342  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+08-03 21:31:22.347  1441  2019 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+08-03 21:31:22.347  1441  2019 D InetDiagMessage: Destroyed live tcp sockets for uids={1010076} in 11ms
+08-03 21:31:22.356   523   603 I vold    : Bind mounting /data/media to /mnt/pass_through/10/emulated
+08-03 21:31:22.371  1441  1989 I StorageSessionController: On volume mount VolumeInfo{emulated;10}:
+08-03 21:31:22.371  1441  1989 I StorageSessionController:     type=EMULATED diskId=null partGuid= mountFlags=PRIMARY|VISIBLE_FOR_WRITE 
+08-03 21:31:22.371  1441  1989 I StorageSessionController:     mountUserId=10 state=CHECKING 
+08-03 21:31:22.371  1441  1989 I StorageSessionController:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:31:22.371  1441  1989 I StorageSessionController:     path=/storage/emulated internalPath=/data/media 
+08-03 21:31:22.374  1441  1989 W UserManager: The System (uid 1000) is fetching a copy of UserProperties on behalf of callingUid 0. Possibly it should carefully first clearCallingIdentity or perhaps use UserManagerInternal.getUserProperties() instead?
+08-03 21:31:22.374  1441  1989 W UserManager: java.lang.Throwable
+08-03 21:31:22.374  1441  1989 W UserManager: 	at android.os.UserManager.getUserProperties(UserManager.java:4189)
+08-03 21:31:22.374  1441  1989 W UserManager: 	at android.os.UserManager.isMediaSharedWithParent(UserManager.java:6418)
+08-03 21:31:22.374  1441  1989 W UserManager: 	at com.android.server.storage.StorageSessionController.getConnectionUserIdForVolume(StorageSessionController.java:87)
+08-03 21:31:22.374  1441  1989 W UserManager: 	at com.android.server.storage.StorageSessionController.onVolumeMount(StorageSessionController.java:121)
+08-03 21:31:22.374  1441  1989 W UserManager: 	at com.android.server.StorageManagerService$8.onVolumeChecking(StorageManagerService.java:2419)
+08-03 21:31:22.374  1441  1989 W UserManager: 	at android.os.IVoldMountCallback$Stub.onTransact(IVoldMountCallback.java:94)
+08-03 21:31:22.374  1441  1989 W UserManager: 	at android.os.Binder.execTransactInternal(Binder.java:1471)
+08-03 21:31:22.374  1441  1989 W UserManager: 	at android.os.Binder.execTransact(Binder.java:1411)
+08-03 21:31:22.374  1441  1989 W UserManager: 	at android.os.BinderProxy.transactNative(Native Method)
+08-03 21:31:22.374  1441  1989 W UserManager: 	at android.os.BinderProxy.transact(BinderProxy.java:602)
+08-03 21:31:22.374  1441  1989 W UserManager: 	at android.os.IVold$Stub$Proxy.mount(IVold.java:1761)
+08-03 21:31:22.374  1441  1989 W UserManager: 	at com.android.server.StorageManagerService.mount(StorageManagerService.java:2408)
+08-03 21:31:22.374  1441  1989 W UserManager: 	at com.android.server.StorageManagerService.-$$Nest$mmount(StorageManagerService.java:0)
+08-03 21:31:22.374  1441  1989 W UserManager: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:778)
+08-03 21:31:22.374  1441  1989 W UserManager: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:31:22.374  1441  1989 W UserManager: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:31:22.374  1441  1989 W UserManager: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:31:22.374  1441  1989 W UserManager: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:31:22.374  1441  1989 W UserManager: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:31:22.374  1441  1989 I StorageSessionController: Creating connection for user: 10
+08-03 21:31:22.375  1441  1989 I StorageSessionController: Creating and starting session with id: emulated;10
+08-03 21:31:22.376  1441  1989 E StorageManagerService: Failed to mount volume VolumeInfo{emulated;10}:
+08-03 21:31:22.376  1441  1989 E StorageManagerService:     type=EMULATED diskId=null partGuid= mountFlags=PRIMARY|VISIBLE_FOR_WRITE 
+08-03 21:31:22.376  1441  1989 E StorageManagerService:     mountUserId=10 state=CHECKING 
+08-03 21:31:22.376  1441  1989 E StorageManagerService:     fsType=null fsUuid=null fsLabel=null 
+08-03 21:31:22.376  1441  1989 E StorageManagerService:     path=/storage/emulated internalPath=/data/media 
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 
+08-03 21:31:22.376  1441  1989 E StorageManagerService: com.android.server.storage.StorageSessionController$ExternalStorageServiceException: Failed to start session: [SessionId: emulated;10. UpperPath: /storage/emulated. LowerPath: /data/media]
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.startSession(StorageUserConnection.java:414)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection.startSession(StorageUserConnection.java:111)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageSessionController.onVolumeMount(StorageSessionController.java:133)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService$8.onVolumeChecking(StorageManagerService.java:2419)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at android.os.IVoldMountCallback$Stub.onTransact(IVoldMountCallback.java:94)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at android.os.Binder.execTransactInternal(Binder.java:1471)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at android.os.Binder.execTransact(Binder.java:1411)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at android.os.BinderProxy.transactNative(Native Method)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at android.os.BinderProxy.transact(BinderProxy.java:602)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at android.os.IVold$Stub$Proxy.mount(IVold.java:1761)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.mount(StorageManagerService.java:2408)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.-$$Nest$mmount(StorageManagerService.java:0)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:778)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: Caused by: com.android.server.storage.StorageSessionController$ExternalStorageServiceException: Not ready to bind to the ExternalStorageService for user 10
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.connectIfNeeded(StorageUserConnection.java:489)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.waitForAsync(StorageUserConnection.java:375)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.waitForAsyncVoid(StorageUserConnection.java:365)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.waitForAsyncVoid(StorageUserConnection.java:356)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	at com.android.server.storage.StorageUserConnection$ActiveConnection.startSession(StorageUserConnection.java:410)
+08-03 21:31:22.376  1441  1989 E StorageManagerService: 	... 17 more
+08-03 21:31:22.376  1441  1989 I StorageManagerService: Scheduling reset in 10s
+08-03 21:31:22.377   523   603 I vold    : fuse_unmounter scope_guard running
+08-03 21:31:22.377   523   603 I vold    : Unmounting fuse paths
+08-03 21:31:22.377   523   603 I vold    : Unmounting fuse path /mnt/user/10/emulated
+08-03 21:31:22.382   523   603 I vold    : Unmounting fuse path /mnt/pass_through/10/emulated
+08-03 21:31:22.383   523   603 I vold    : sdcardfs_unmounter scope_guard running
+08-03 21:31:22.385  1441  1989 E StorageManagerService: android.os.ServiceSpecificException:  (code -5)
+08-03 21:31:22.385  1441  1989 E StorageManagerService: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3384)
+08-03 21:31:22.385  1441  1989 E StorageManagerService: 	at android.os.Parcel.createException(Parcel.java:3354)
+08-03 21:31:22.385  1441  1989 E StorageManagerService: 	at android.os.Parcel.readException(Parcel.java:3337)
+08-03 21:31:22.385  1441  1989 E StorageManagerService: 	at android.os.Parcel.readException(Parcel.java:3279)
+08-03 21:31:22.385  1441  1989 E StorageManagerService: 	at android.os.IVold$Stub$Proxy.mount(IVold.java:1762)
+08-03 21:31:22.385  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.mount(StorageManagerService.java:2408)
+08-03 21:31:22.385  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService.-$$Nest$mmount(StorageManagerService.java:0)
+08-03 21:31:22.385  1441  1989 E StorageManagerService: 	at com.android.server.StorageManagerService$StorageManagerServiceHandler.handleMessage(StorageManagerService.java:778)
+08-03 21:31:22.385  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessageImpl(Handler.java:142)
+08-03 21:31:22.385  1441  1989 E StorageManagerService: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+08-03 21:31:22.385  1441  1989 E StorageManagerService: 	at android.os.Looper.loopOnce(Looper.java:269)
+08-03 21:31:22.385  1441  1989 E StorageManagerService: 	at android.os.Looper.loop(Looper.java:367)
+08-03 21:31:22.385  1441  1989 E StorageManagerService: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+08-03 21:31:22.386  1441  1989 I StorageSessionController: Notifying volume state changed for session with id: emulated;10
+08-03 21:31:22.387  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:31:22.387  1441  1989 I StorageSessionController: Notifying volume state changed for session with id: emulated;10
+08-03 21:31:22.388  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:31:22.389  1441  1989 I StorageSessionController: Notifying volume state changed for session with id: emulated;10
+08-03 21:31:22.389  1441  1989 W StorageUserConnection: Dropping async request as service is not connectedand request doesn't require connecting
+08-03 21:31:22.390  1441  2586 W StorageManagerService: No primary storage defined yet; hacking together a stub
+08-03 21:31:22.390  1441  1441 W StorageManagerService: No primary storage defined yet; hacking together a stub
+08-03 21:31:22.391  1441  1989 D StorageManagerService: Volume emulated;10 broadcasting checking to UserHandle{10}
+08-03 21:31:22.393  1441  1735 D ActivityManager: sync unfroze 14485 com.android.externalstorage for 3
+08-03 21:31:22.394 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:31:22.395 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:31:22.398  1441  2586 W StorageManagerService: Reporting emulated;10 unmounted due to system locked
+08-03 21:31:22.399 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:31:22.399  1441  1989 D StorageManagerService: Volume emulated;10 broadcasting unmountable to UserHandle{10}
+08-03 21:31:22.401 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:31:22.403 14485 14485 D ExternalStorage: After updating volumes, found 0 active roots
+08-03 21:31:22.605  1257  1257 I adbd    : adbd service requested 'shell,v2,TERM=xterm-ghostty,raw:settings get secure accessibility_enabled'
+08-03 21:31:22.605  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3326}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:22.617  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:23.002  1257  1257 I adbd    : adbd service requested 'shell,v2,TERM=xterm-ghostty:export ANDROID_LOG_TAGS=''; exec logcat '-d''
+08-03 21:31:23.606  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3325}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:23.617  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:24.114   983  1076 I WifiHAL : Creating message to get link statistics; iface = 47
+08-03 21:31:24.247   983  1076 D WifiHAL : Start debug command: mType GET_FEATURE
+08-03 21:31:24.247   983  1076 I WifiHAL : CreateRequest mType = GET_FEATURE
+08-03 21:31:24.248   983  1076 D WifiHAL : In DebugCommand::handleResponse, mType:GET_FEATURE
+08-03 21:31:24.248   983  1076 D WifiHAL : len = 4, expected len = 4
+08-03 21:31:24.605  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3324}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:24.624  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:25.607  2120  2120 D BouncerMessageAuditLogger: bouncerMessage: BouncerMessageModel(message=Message(message=null, messageResId=2131953299, colorState=null, formatterArgs={count=3323}, animate=false), secondaryMessage=Message(message=null, messageResId=2131953259, colorState=null, formatterArgs=null, animate=false))
+08-03 21:31:25.622  2120  2120 D KeyguardViewMediator: KeyguardViewMediator queue processing message: KEYGUARD_DONE_DRAWING
+08-03 21:31:25.749  1257  1257 I adbd    : adbd service requested 'shell,v2,TERM=xterm-ghostty:export ANDROID_LOG_TAGS=''; exec logcat '-d''
